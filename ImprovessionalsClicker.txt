@@ -75,7 +75,7 @@ Buildings
 		
 	*tommy|tommys
 		name:Tommy|Tommys
-		desc:.<//><b>Effect:</b><.>Produces [?(have mackenzie and movieClub)|2|?(have Mackenzie or movieClub)|1|.5] comedy points per second.
+		desc:.<//><b>Effect:</b><.>Produces [?(have mackenzie and marriage)|2|?(have mackenzie or marriage)|1|.5] comedy points per second.
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Tommy.png
 		cost:15 comedyPoints
 		on tick:yield 0.5 comedyPoint
@@ -83,7 +83,7 @@ Buildings
 	
 	*abby|abbys
 		name:Abby|Abbys
-		desc:Will kill you with hammers.<//><b>Effect:</b><.>Produces 5 comedy points per second.
+		desc:Will kill you with hammers.<//><b>Effect:</b><.>Produces [?(have eli and disneylandTrip)|8|?(have eli or disneylandTrip)|4|2] comedy points per second.
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Abby.png
 		cost:100 comedyPoints
 		on tick:yield 2 comedyPoints
@@ -91,7 +91,7 @@ Buildings
 	
 	*alessandro|alessandros
 		name:Alessandro|Alessandros
-		desc:He's been here the whole time.<//><b>Effect:</b><.>Produces 2 comedy points per second.
+		desc:He's been here the whole time.<//><b>Effect:</b><.>Produces [?(have sabrina and sharedCar)|20|?(have sabrina or sharedCar)|10|5] comedy points per second.
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Alessandro.png
 		cost:600 comedyPoints
 		on tick:yield 5 comedyPoints
@@ -100,6 +100,15 @@ Buildings
 Upgrades
 	*TEMPLATE
 		on click:anim glow
+
+	//click upgrades
+
+	*ucbManual
+		name:UCB Manual
+		desc:It's all about game babey!<//><b>Effect:</b><.>jokes/click *2
+		cost:100 comedyPoints
+		passive:multiply comedyPoint yield of impButton by 2
+		req:100 comedyPoints:earned
 	
 	//building upgrades
 
@@ -109,7 +118,15 @@ Upgrades
 		icon:icons[1,1]
 		cost:100 comedyPoints
 		passive:multiply yield of tommy by 2
-		req:10 comedyPoints:earned
+		req:tommys>=5
+
+	*marriage
+		name:Marriage
+		desc:
+		icon:icons[1,1]
+		cost:250 comedyPoints
+		passive:multiply yield of tommy by 2
+		req:tommys>=10
 		
 	*eli
 		name:Eli
@@ -117,7 +134,15 @@ Upgrades
 		icon:icons[1,2]
 		cost:200 comedyPoints
 		passive:multiply yield of abby by 2
-		req:50 comedyPoints:earned
+		req:abbys>=5
+
+	*disneylandTrip
+		name:Disneyland Trip
+		desc:
+		icon:icons[1,1]
+		cost:600 comedyPoints
+		passive:multiply yield of abby by 2
+		req:abbys>=10
 		
 	*sabrina
 		name:Sabrina
@@ -125,19 +150,25 @@ Upgrades
 		icon:icons[1,3]
 		cost:400 comedyPoints
 		passive:multiply yield of alessandro by 2
-		req:200 comedyPoints:earned
+		req:alessandros>=5
+
+	*sharedCar
+		name:Shared Car
+		desc:
+		icon:icons[1,1]
+		cost:1000 comedyPoints
+		passive:multiply yield of alessandro by 2
+		req:alessandros>=10
 	
 	*movieClub
 		name:Movie Club
-		desc:*garbled "Top Gun" theme plays in the background* Hey, this is great!<//><b>Effect:</b><.>Tommy production x2<.>Abby production x2<.>Alessandro production x2
+		desc:*garbled "Top Gun" theme plays in the background* Hey, this is great!<//><b>Effect:</b><.>comedy point production +5%
 		icon:icons[2,0] icons[3,0]
-		cost:1000 comedyPoints
-		passive:multiply yield of tommy by 2
-		passive:multiply yield of alessandro by 2
-		passive:multiply yield of abby by 2
-		req:(tommys>=10 and alessandros>=10 and abbys>=10)
+		cost:1200 comedyPoints
+		passive:multiply yield of comedyPoints by 1.05
+		req:(tommys>=20 and abbys>=10 and alessandros>=5)
 		
-	//golden carrot upgrades
+	//zinger upgrades
 	
 	*quoteJar
 		name:Quote Jar
@@ -152,7 +183,7 @@ Upgrades
 		icon:icons[2,6]
 		passive:multiply frequency of quacklemore by 0.75
 		cost:5 zingers
-		req:1 zinger:earned
+		req:2 zinger:earned
 		
 Achievements
 	*TEMPLATE
