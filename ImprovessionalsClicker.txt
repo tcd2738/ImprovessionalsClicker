@@ -1,7 +1,7 @@
 Let's make a game!
 	name:Improvessionals Clicker
 	by:Tommy
-	desc:This is a simple idle game to showcase some of the basic functionalities of Idle Game Maker.<//>Make bunnies and shoot for the stars!
+	desc:
 	created:08/15/2025
 	updated:08/15/2025
 	version:1
@@ -19,9 +19,9 @@ Layout
 Buttons
 	*bunnyButton
 		name:Make a bunny
-		desc:Click this little bunny to get more bunnies!
+		desc:Click The Improvessionals (TM) logo to get more comedy points!
 		on click:anim icon wobble
-		on click:yield 1 bunny
+		on click:yield 1 comedy point
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/ImprovessionalsLogo.png
 		no text
@@ -31,9 +31,9 @@ Buttons
 		tooltip class:red
 		
 Resources
-	*bunny|bunnies
-		name:Bunny|Bunnies
-		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
+	*comedy point|comedy points
+		name:Comedy Point|Comedy Points
+		desc:These are your comedy points. You can use them to purchase things. Your goal is to be as funny as possible!
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/ImprovessionalsMiniLogo.png
 		class:noBackground
 		show earned
