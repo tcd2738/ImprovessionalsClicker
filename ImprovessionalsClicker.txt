@@ -73,26 +73,26 @@ Buildings
 	*TEMPLATE
 		on click:anim glow
 		
-	*Tommy|Tommys
+	*tommy|tommys
 		name:Tommy|Tommys
 		desc:.<//><b>Effect:</b><.>Produces .5 comedy points per second.
-		icon:icons[3,0]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Tommy.png
 		cost:15 comedyPoints
 		on tick:yield 0.5 comedyPoint
 		unlocked
 	
-	*Abby|Abbys
+	*abby|abbys
 		name:Abby|Abbys
 		desc:Will kill you with hammers.<//><b>Effect:</b><.>Produces 5 comedy points per second.
-		icon:icons[3,1]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Abby.png
 		cost:100 comedyPoints
 		on tick:yield 2 comedyPoints
 		req:100 comedyPoints:earned
 	
-	*Alessandro|Alessandros
+	*alessandro|alessandros
 		name:Alessandro|Alessandros
 		desc:He's been here the whole time.<//><b>Effect:</b><.>Produces 2 comedy points per second.
-		icon:icons[3,2]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Alessandro.png
 		cost:600 comedyPoints
 		on tick:yield 5 comedyPoints
 		req:600 comedyPoints:earned
