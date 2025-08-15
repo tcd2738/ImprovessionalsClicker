@@ -112,21 +112,21 @@ Upgrades
 
 	*ucbManual
 		name:UCB Manual
-		desc:It's all about game babey!<//><b>Effect:</b><.>jokes/click *2
+		desc:It's all about game babey!<//><b>Effect:</b><.>comedy points per click *2
 		cost:100 comedyPoints
 		passive:multiply comedyPoint yield of impButton by 2
 		req:100 comedyPoints:earned
 
 	*twitterDotCom
 		name:twitter.com
-		desc:All of the funniest and least offensive jokes come from here.<//><b>Effect:</b><.>jokes/click *2
+		desc:The funniest and least offensive jokes come from here.<//><b>Effect:</b><.>comedy points per click *2
 		cost:250 comedyPoints
 		passive:multiply comedyPoint yield of impButton by 2
 		req:500 comedyPoints:earned
 
 	*onionSubscription
 		name:A Print Subscription to The Onion
-		desc:Global Tetrahedron thanks you.<//><b>Effect:</b><.>jokes/click *2
+		desc:Global Tetrahedron thanks you.<//><b>Effect:</b><.>comedy points per click *2
 		cost:500 comedyPoints
 		passive:multiply comedyPoint yield of impButton by 2
 		req:1000 comedyPoints:earned
@@ -148,6 +148,14 @@ Upgrades
 		cost:250 comedyPoints
 		passive:multiply yield of tommy by 2
 		req:tommys>=10
+
+	*barOfSoap
+		name:A Bar of Soap
+		desc:
+		icon:icons[1,1]
+		cost:600 comedyPoints
+		passive:multiply yield of tommy by 2
+		req:tommys>=20
 		
 	*eli
 		name:Eli
@@ -164,6 +172,14 @@ Upgrades
 		cost:600 comedyPoints
 		passive:multiply yield of abby by 2
 		req:abbys>=10
+
+	*mashSideblog
+		name:A M*A*S*H Sideblog
+		desc:
+		icon:icons[1,1]
+		cost:1400 comedyPoints
+		passive:multiply yield of abby by 2
+		req:abbys>=20
 		
 	*sabrina
 		name:Sabrina
@@ -180,6 +196,14 @@ Upgrades
 		cost:1000 comedyPoints
 		passive:multiply yield of alessandro by 2
 		req:alessandros>=10
+
+	*stupidLittleHat
+		name:A Stupid Little Hat
+		desc:
+		icon:icons[1,3]
+		cost:2400 comedyPoints
+		passive:multiply yield of alessandro by 2
+		req:alessandros>=20
 	
 	*movieClub
 		name:Movie Club
@@ -193,18 +217,26 @@ Upgrades
 	
 	*quoteJar
 		name:Quote Jar
-		desc:People love it when you read through the quote jar.<//><b>Effect:</b><.>1% chance of gaining a zinger per joke
+		desc:Your friends love it when you read through the quote jar.<//><b>Effect:</b><.>1% chance of gaining a zinger per joke
 		icon:icons[2,5]
 		cost:1 zinger
 		req:1 zinger:earned
 		
 	*eBoard
 		name:E-board
-		desc:A bunch of people that will sit around and complain about you.<//><b>Effect:</b><.>quacklemore appears 25% more often
+		desc:A bunch of people that will sit around and complain about you.<//><b>Effect:</b><.>quacklemore appears 10% more often
+		icon:icons[2,6]
+		passive:multiply frequency of quacklemore by 0.90
+		cost:3 zingers
+		req:2 zinger:earned
+
+	*webbAuditorium
+		name:Webb Auditorium
+		desc:Despite what everyone else says, this is a much better space than Ingle Auditorium.<//><b>Effect:</b><.>quacklemore appears 25% more often
 		icon:icons[2,6]
 		passive:multiply frequency of quacklemore by 0.75
 		cost:5 zingers
-		req:2 zinger:earned
+		req:3 zinger:earned
 		
 Achievements
 	*TEMPLATE
