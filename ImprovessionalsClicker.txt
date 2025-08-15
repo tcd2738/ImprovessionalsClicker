@@ -75,7 +75,7 @@ Buildings
 		
 	*tommy|tommys
 		name:Tommy|Tommys
-		desc:.<//><b>Effect:</b><.>Produces .5 comedy points per second.
+		desc:.<//><b>Effect:</b><.>Produces [?(have mackenzie and movieClub)|2|?(have Mackenzie or movieClub)|1|.5] comedy points per second.
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Tommy.png
 		cost:15 comedyPoints
 		on tick:yield 0.5 comedyPoint
