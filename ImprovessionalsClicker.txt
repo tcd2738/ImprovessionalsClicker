@@ -45,8 +45,8 @@ Resources
 		class:noBackground
 		hidden when 0
 
-	*toast|toasts
-		name:Toast/toasts
+	*toastTheCat|toasts
+		name:Toast/Toasts
 		desc:
 		icon:
 		class:noBackground
@@ -63,7 +63,7 @@ Shinies
 		on click:
 			$boost=1
 			if (chance(5%))
-				yield 1 toast
+				yield 1 toastTheCat
 			else if (chance(60%))
 				//get at least 7, or between 1 and 3 minutes of our comedy point production
 				$amount=max(7,random(comedyPoints:ps*60*1,comedyPoints:ps*60*3))*$boost
@@ -263,5 +263,5 @@ Achievements
 	*toast
 		name:Toast!
 		desc: Uhh, papa, I think I'm an achievement…
-		req:1 toast
+		req:1 toastTheCat
 		icon:icons[0,1]
