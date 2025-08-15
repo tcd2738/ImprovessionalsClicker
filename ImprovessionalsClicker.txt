@@ -221,9 +221,3 @@ Achievements
 		desc:Have <b>1000</b> golden carrots.
 		req:1000 zingers
 		icon:icons[0,1] icons[0,4]
-	
-	*fortressAchiev
-		name:Freedom!
-		desc:Complete building the <b>freedom fortress</b>.<//>This is it. You beat the game!
-		req:100 fortress
-		icon:icons[3,8] icons[0,4]
