@@ -55,9 +55,9 @@ Shinies
 		class:bigButton
 		on click:
 			$boost=1
-			if (chance(100%))
+			if (chance(10%))
 				toast Toast!
-			else if (chance(25%))
+			else if (chance(50%))
 				//get at least 7, or between 1 and 3 minutes of our comedy point production
 				$amount=max(7,random(comedyPoints:ps*60*1,comedyPoints:ps*60*3))*$boost
 				toast Quacklemore grants you<//><b>[$amount] comedy points</b>.
@@ -95,7 +95,7 @@ Buildings
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Alessandro.png
 		cost:600 comedyPoints
 		on tick:yield 5 comedyPoints
-		req:600 comedyPoints:earned
+		req:1000 comedyPoints:earned
 		
 Upgrades
 	*TEMPLATE
