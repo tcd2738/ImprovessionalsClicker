@@ -136,7 +136,7 @@ Upgrades
 	*mackenzie
 		name:Mackenzie
 		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Tommy production *2
-		icon:icons[1,1]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:100 comedyPoints
 		passive:multiply yield of tommy by 2
 		req:tommys>=5
@@ -152,7 +152,7 @@ Upgrades
 	*barOfSoap
 		name:A Bar of Soap
 		desc:What do I care? I eat soap.<//><b>Effect:</b><.>Tommy production *2
-		icon:icons[1,1]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Soap.png
 		cost:625 comedyPoints
 		passive:multiply yield of tommy by 2
 		req:tommys>=20
@@ -160,7 +160,7 @@ Upgrades
 	*eli
 		name:Eli
 		desc:Have you met my best friend Eli?<//><b>Effect:</b><.>Abby production *2
-		icon:icons[1,2]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Eli.png
 		cost:200 comedyPoints
 		passive:multiply yield of abby by 2
 		req:abbys>=5
@@ -176,7 +176,7 @@ Upgrades
 	*mashSideblog
 		name:A M*A*S*H Sideblog
 		desc:Alan Alda's grandson follows me.<//><b>Effect:</b><.>Abby production *2
-		icon:icons[1,1]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Blog.png
 		cost:1250 comedyPoints
 		passive:multiply yield of abby by 2
 		req:abbys>=20
@@ -184,7 +184,7 @@ Upgrades
 	*sabrina
 		name:Sabrina
 		desc:She's a real space cadet.<//><b>Effect:</b><.>Alessandro production *2
-		icon:icons[1,3]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Sabrina.png
 		cost:400 comedyPoints
 		passive:multiply yield of alessandro by 2
 		req:alessandros>=5
@@ -200,7 +200,7 @@ Upgrades
 	*stupidLittleHat
 		name:A Stupid Little Hat
 		desc:Goes perfectly with a pair of Coddies.<//><b>Effect:</b><.>Alessandro production *2
-		icon:icons[1,3]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Hat.png
 		cost:2500 comedyPoints
 		passive:multiply yield of alessandro by 2
 		req:alessandros>=20
