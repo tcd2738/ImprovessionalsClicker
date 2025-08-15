@@ -44,6 +44,13 @@ Resources
 		icon:icons[0,1]
 		class:noBackground
 		hidden when 0
+
+	*toast|toasts
+		name:Toast/toasts
+		desc:
+		icon:
+		class:noBackground
+		always hidden 
 		
 Shinies
 	*quacklemore
@@ -55,9 +62,9 @@ Shinies
 		class:bigButton
 		on click:
 			$boost=1
-			if (chance(10%))
-				toast Toast!
-			else if (chance(50%))
+			if (chance(5%))
+				yield 1 toast
+			else if (chance(60%))
 				//get at least 7, or between 1 and 3 minutes of our comedy point production
 				$amount=max(7,random(comedyPoints:ps*60*1,comedyPoints:ps*60*3))*$boost
 				toast Quacklemore grants you<//><b>[$amount] comedy points</b>.
@@ -252,3 +259,9 @@ Achievements
 		desc:Have <b>1000</b> golden carrots.
 		req:1000 zingers
 		icon:icons[0,1] icons[0,4]
+
+	*toast
+		name:Toast!
+		desc: Uhh, papa, I think I'm an achievement…
+		req:1 toast
+		icon:icons[0,1]
