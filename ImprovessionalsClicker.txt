@@ -82,7 +82,7 @@ Buildings
 		
 	*tommy|tommys
 		name:Tommy|Tommys
-		desc:.<//><b>Effect:</b><.>Produces [?(have mackenzie and marriage)|2|?(have mackenzie or marriage)|1|.5] comedy points per second.
+		desc:.<//><b>Effect:</b><.>Produces .5 comedy points per second.
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Tommy.png
 		cost:15 comedyPoints
 		on tick:yield 0.5 comedyPoint
@@ -90,7 +90,7 @@ Buildings
 	
 	*abby|abbys
 		name:Abby|Abbys
-		desc:Will kill you with hammers.<//><b>Effect:</b><.>Produces [?(have eli and disneylandTrip)|8|?(have eli or disneylandTrip)|4|2] comedy points per second.
+		desc:Will kill you with hammers.<//><b>Effect:</b><.>Produces 2 comedy points per second.
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Abby.png
 		cost:100 comedyPoints
 		on tick:yield 2 comedyPoints
@@ -98,7 +98,7 @@ Buildings
 	
 	*alessandro|alessandros
 		name:Alessandro|Alessandros
-		desc:He's been here the whole time.<//><b>Effect:</b><.>Produces [?(have sabrina and sharedCar)|20|?(have sabrina or sharedCar)|10|5] comedy points per second.
+		desc:He's been here the whole time.<//><b>Effect:</b><.>Produces 5 comedy points per second.
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Alessandro.png
 		cost:600 comedyPoints
 		on tick:yield 5 comedyPoints
@@ -135,7 +135,7 @@ Upgrades
 
 	*mackenzie
 		name:Mackenzie
-		desc:A nice little supplement to your bunnies' diet.<//><b>Effect:</b><.>Tommy production *2
+		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Tommy production *2
 		icon:icons[1,1]
 		cost:100 comedyPoints
 		passive:multiply yield of tommy by 2
@@ -151,15 +151,15 @@ Upgrades
 
 	*barOfSoap
 		name:A Bar of Soap
-		desc:
+		desc:What do I care? I eat soap.<//><b>Effect:</b><.>Tommy production *2
 		icon:icons[1,1]
-		cost:600 comedyPoints
+		cost:625 comedyPoints
 		passive:multiply yield of tommy by 2
 		req:tommys>=20
 		
 	*eli
 		name:Eli
-		desc:Big tasty leaves, perfect for hungry bunnies.<//><b>Effect:</b><.>Abby production *2
+		desc:Have you met my best friend Eli?<//><b>Effect:</b><.>Abby production *2
 		icon:icons[1,2]
 		cost:200 comedyPoints
 		passive:multiply yield of abby by 2
@@ -167,17 +167,17 @@ Upgrades
 
 	*disneylandTrip
 		name:Disneyland Trip
-		desc:
+		desc:If the Enchanted Tiki Room is closed I will kill myself.<//><b>Effect:</b><.>Abby production *2
 		icon:icons[1,1]
-		cost:600 comedyPoints
+		cost:500 comedyPoints
 		passive:multiply yield of abby by 2
 		req:abbys>=10
 
 	*mashSideblog
 		name:A M*A*S*H Sideblog
-		desc:
+		desc:Alan Alda's grandson follows me.<//><b>Effect:</b><.>Abby production *2
 		icon:icons[1,1]
-		cost:1400 comedyPoints
+		cost:1250 comedyPoints
 		passive:multiply yield of abby by 2
 		req:abbys>=20
 		
@@ -191,7 +191,7 @@ Upgrades
 
 	*sharedCar
 		name:Shared Car
-		desc:
+		desc:There's shit strewn all over the floor and garbage in the back.<//><b>Effect:</b><.>Alessandro production *2
 		icon:icons[1,1]
 		cost:1000 comedyPoints
 		passive:multiply yield of alessandro by 2
@@ -199,9 +199,9 @@ Upgrades
 
 	*stupidLittleHat
 		name:A Stupid Little Hat
-		desc:
+		desc:Goes perfectly with a pair of Coddies.<//><b>Effect:</b><.>Alessandro production *2
 		icon:icons[1,3]
-		cost:2400 comedyPoints
+		cost:2500 comedyPoints
 		passive:multiply yield of alessandro by 2
 		req:alessandros>=20
 	
