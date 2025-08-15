@@ -124,7 +124,7 @@ Upgrades
 		passive:multiply comedyPoint yield of impButton by 2
 		req:500 comedyPoints:earned
 
-	*aPrintSubscriptionToTheOnion
+	*onionSubscription
 		name:A Print Subscription to The Onion
 		desc:Global Tetrahedron thanks you.<//><b>Effect:</b><.>jokes/click *2
 		cost:500 comedyPoints
