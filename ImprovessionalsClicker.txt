@@ -71,7 +71,7 @@ Shinies
 				yield $amount comedyPoints
 			else
 				$amount=1*$boost
-				toast Quacklemore grants you<//><b>[$amount] zingers[s?$amount]</b>!
+				toast Quacklemore grants you<//><b>[$amount] zinger[s?$amount]</b>!
 				yield $amount zinger
 			end
 		end
@@ -116,12 +116,26 @@ Upgrades
 		cost:100 comedyPoints
 		passive:multiply comedyPoint yield of impButton by 2
 		req:100 comedyPoints:earned
+
+	*twitterDotCom
+		name:twitter.com
+		desc:All of the funniest and least offensive jokes come from here.<//><b>Effect:</b><.>jokes/click *2
+		cost:250 comedyPoints
+		passive:multiply comedyPoint yield of impButton by 2
+		req:500 comedyPoints:earned
+
+	*aPrintSubscriptionToTheOnion
+		name:A Print Subscription to The Onion
+		desc:Global Tetrahedron thanks you.<//><b>Effect:</b><.>jokes/click *2
+		cost:500 comedyPoints
+		passive:multiply comedyPoint yield of impButton by 2
+		req:1000 comedyPoints:earned
 	
 	//building upgrades
 
 	*mackenzie
 		name:Mackenzie
-		desc:A nice little supplement to your bunnies' diet.<//><b>Effect:</b><.>+1 bunny/click
+		desc:A nice little supplement to your bunnies' diet.<//><b>Effect:</b><.>Tommy production *2
 		icon:icons[1,1]
 		cost:100 comedyPoints
 		passive:multiply yield of tommy by 2
@@ -137,7 +151,7 @@ Upgrades
 		
 	*eli
 		name:Eli
-		desc:Big tasty leaves, perfect for hungry bunnies.<//><b>Effect:</b><.>+1 bunny/click
+		desc:Big tasty leaves, perfect for hungry bunnies.<//><b>Effect:</b><.>Abby production *2
 		icon:icons[1,2]
 		cost:200 comedyPoints
 		passive:multiply yield of abby by 2
