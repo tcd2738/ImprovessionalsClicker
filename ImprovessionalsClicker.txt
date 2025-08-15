@@ -209,10 +209,10 @@ Upgrades
 		name:Mint
 		desc:Tasty, and gives your bunnies a lovely breath.<//><b>Effect:</b><.>bunnies/click x1.5<.>bunny production +5%
 		icon:icons[1,7]
-		cost:100000 bunnies
-		passive:multiply bunny yield of bunnyButton by 1.5
-		passive:multiply yield of bunnies by 1.05
-		req:50000 bunnies:earned
+		cost:100000 comedyPoints
+		passive:multiply comedyPoint yield of impButton by 1.5
+		passive:multiply yield of comedyPoints by 1.05
+		req:50000 comedyPoints:earned
 		
 	*chard
 		name:Chard
