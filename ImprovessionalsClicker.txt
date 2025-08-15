@@ -260,7 +260,7 @@ Achievements
 		req:1000 zingers
 		icon:icons[0,1] icons[0,4]
 
-	*toast
+	*toastAchiev
 		name:Toast!
 		desc: Uhh, papa, I think I'm an achievement…
 		req:1 toastTheCat
