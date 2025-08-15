@@ -31,7 +31,7 @@ Buttons
 		tooltip class:red
 		
 Resources
-	*comedy point|comedy points
+	*comedy_point|comedy_points
 		name:Comedy Point|Comedy Points
 		desc:These are your comedy points. You can use them to purchase things. Your goal is to be as funny as possible!
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/ImprovessionalsMiniLogo.png
