@@ -142,6 +142,7 @@ Upgrades
 	*ucbManual
 		name:UCB Manual
 		desc:It's all about game babey!<//><b>Effect:</b><.>jokes per click *2
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Click/UCB.png
 		cost:100 jokes
 		passive:multiply joke yield of impButton by 2
 		req:100 jokes:earned
@@ -150,6 +151,7 @@ Upgrades
 	*twitterDotCom
 		name:twitter.com
 		desc:The funniest and least offensive jokes come from here.<//><b>Effect:</b><.>jokes per click *3
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Click/Twitter.png
 		cost:500 jokes
 		passive:multiply joke yield of impButton by 3
 		req:500 jokes:earned
@@ -158,6 +160,7 @@ Upgrades
 	*onionSubscription
 		name:A Print Subscription to The Onion
 		desc:Global Tetrahedron thanks you.<//><b>Effect:</b><.>jokes per click *4
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Click/Onion.png
 		cost:900 jokes
 		passive:multiply joke yield of impButton by 4
 		req:2500 jokes:earned
@@ -257,8 +260,8 @@ Upgrades
 
 	*marriage
 		name:Marriage
-		desc:
-		icon:icons[1,1]
+		desc:I don't want to set the world on fire. I just want to keep my nuts warm.<b>Effect:</b><.>Tommy production *2
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building2/Marriage.png
 		cost:5425 jokes
 		passive:multiply yield of tommy by 2
 		req:tommys>=20
@@ -285,7 +288,7 @@ Upgrades
 	*sharedCar
 		name:Shared Car
 		desc:There's shit strewn all over the floor and garbage in the back.<//><b>Effect:</b><.>Alessandro production *2
-		icon:icons[1,1]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building2/SharedCar.png
 		cost:13500 jokes
 		passive:multiply yield of alessandro by 2
 		req:alessandros>=20
@@ -312,7 +315,7 @@ Upgrades
 	*disneylandTrip
 		name:Disneyland Trip
 		desc:If the Enchanted Tiki Room is closed, I will kill myself.<//><b>Effect:</b><.>Abby production *2
-		icon:icons[1,1]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building2/Disneyland.png
 		cost:33900 jokes
 		passive:multiply yield of abby by 2
 		req:abbys>=20
