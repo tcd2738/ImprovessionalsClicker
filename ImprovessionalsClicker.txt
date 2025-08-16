@@ -163,7 +163,7 @@ Upgrades
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:100 comedyPoints
 		passive:multiply yield of ethan by 2
-		req:ethans>=5
+		req:ethans>=10
 
 	*ethan2
 		name:Ethan2
@@ -171,7 +171,7 @@ Upgrades
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:350 comedyPoints
 		passive:multiply yield of ethan by 2
-		req:ethans>=10
+		req:ethans>=20
 
 	*ethan3
 		name:Ethan3
@@ -179,7 +179,7 @@ Upgrades
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:1225 comedyPoints
 		passive:multiply yield of ethan by 2
-		req:ethans>=20
+		req:ethans>=30
 
 	*isaac1
 		name:Isaac1
@@ -187,7 +187,7 @@ Upgrades
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:250 comedyPoints
 		passive:multiply yield of isaac by 2
-		req:isaacs>=5
+		req:isaacs>=10
 
 	*isaac2
 		name:Isaac2
@@ -195,7 +195,7 @@ Upgrades
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:875 comedyPoints
 		passive:multiply yield of isaac by 2
-		req:isaacs>=10
+		req:isaacs>=20
 
 	*isaac3
 		name:Isaac3
@@ -203,7 +203,7 @@ Upgrades
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:3060 comedyPoints
 		passive:multiply yield of isaac by 2
-		req:isaacs>=20
+		req:isaacs>=30
 
 	*leo1
 		name:Leo1
@@ -211,7 +211,7 @@ Upgrades
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:625 comedyPoints
 		passive:multiply yield of leo by 2
-		req:leos>=5
+		req:leos>=10
 
 	*leo2
 		name:Leo2
@@ -219,7 +219,7 @@ Upgrades
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:2180 comedyPoints
 		passive:multiply yield of leo by 2
-		req:leos>=10
+		req:leos>=20
 
 	*leo3
 		name:Leo3
@@ -227,7 +227,7 @@ Upgrades
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:7650 comedyPoints
 		passive:multiply yield of leo by 2
-		req:leos>=20
+		req:leos>=30
 
 	*mackenzie
 		name:Mackenzie
@@ -235,7 +235,7 @@ Upgrades
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:1550 comedyPoints
 		passive:multiply yield of tommy by 2
-		req:tommys>=5
+		req:tommys>=10
 
 	*marriage
 		name:Marriage
@@ -243,7 +243,7 @@ Upgrades
 		icon:icons[1,1]
 		cost:5425 comedyPoints
 		passive:multiply yield of tommy by 2
-		req:tommys>=10
+		req:tommys>=20
 
 	*barOfSoap
 		name:A Bar of Soap
@@ -251,7 +251,7 @@ Upgrades
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Soap.png
 		cost:18900 comedyPoints
 		passive:multiply yield of tommy by 2
-		req:tommys>=20
+		req:tommys>=30
 
 	*sabrina
 		name:Sabrina
@@ -259,7 +259,7 @@ Upgrades
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Sabrina.png
 		cost:3875 comedyPoints
 		passive:multiply yield of alessandro by 2
-		req:alessandros>=5
+		req:alessandros>=10
 
 	*sharedCar
 		name:Shared Car
@@ -267,7 +267,7 @@ Upgrades
 		icon:icons[1,1]
 		cost:13500 comedyPoints
 		passive:multiply yield of alessandro by 2
-		req:alessandros>=10
+		req:alessandros>=20
 
 	*stupidLittleHat
 		name:A Stupid Little Hat
@@ -275,7 +275,7 @@ Upgrades
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Hat.png
 		cost:47450 comedyPoints
 		passive:multiply yield of alessandro by 2
-		req:alessandros>=20
+		req:alessandros>=30
 		
 	*eli
 		name:Eli
@@ -283,7 +283,7 @@ Upgrades
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Eli.png
 		cost:9690 comedyPoints
 		passive:multiply yield of abby by 2
-		req:abbys>=5
+		req:abbys>=10
 
 	*disneylandTrip
 		name:Disneyland Trip
@@ -291,7 +291,7 @@ Upgrades
 		icon:icons[1,1]
 		cost:33900 comedyPoints
 		passive:multiply yield of abby by 2
-		req:abbys>=10
+		req:abbys>=20
 
 	*mashSideblog
 		name:A M*A*S*H Sideblog
@@ -299,7 +299,7 @@ Upgrades
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Blog.png
 		cost:118670 comedyPoints
 		passive:multiply yield of abby by 2
-		req:abbys>=20
+		req:abbys>=30
 
 	*impBabies
 		name:Improvessionals Babies
@@ -339,9 +339,9 @@ Upgrades
 
 	*webbAuditorium
 		name:Webb Auditorium
-		desc:Despite what everyone else says, this is a much better space than Ingle Auditorium.<//><b>Effect:</b><.>quacklemore appears 25% more often
+		desc:Despite what everyone else says, this is a much better space than Ingle Auditorium.<//><b>Effect:</b><.>quacklemore appears 20% more often
 		icon:icons[2,6]
-		passive:multiply frequency of quacklemore by 0.75
+		passive:multiply frequency of quacklemore by 0.80
 		cost:5 zingers
 		req:3 zinger:earned
 		
