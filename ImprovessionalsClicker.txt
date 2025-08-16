@@ -86,7 +86,7 @@ Buildings
 		cost:15 jokes
 		on tick:yield 0.5 joke
 		unlocked
-		cost increase:105%
+		cost increase:102%
 		
 	*isaac|isaacs
 		name:Isaac|Isaacs
@@ -95,7 +95,7 @@ Buildings
 		cost:45 jokes
 		on tick:yield 1 joke
 		req:100 jokes:earned
-		cost increase:110%
+		cost increase:104%
 
 	*leo|leos
 		name:Leo|Leos
@@ -104,7 +104,7 @@ Buildings
 		cost:135 jokes
 		on tick:yield 3 joke
 		req:400 jokes:earned
-		cost increase:115%
+		cost increase:106%
 
 	*tommy|tommys
 		name:Tommy|Tommys
@@ -113,7 +113,7 @@ Buildings
 		cost:405 jokes
 		on tick:yield 8 joke
 		req:1600 jokes:earned
-		cost increase:120%
+		cost increase:108%
 	
 	*alessandro|alessandros
 		name:Alessandro|Alessandros
@@ -122,7 +122,7 @@ Buildings
 		cost:1215 jokes
 		on tick:yield 20 jokes
 		req:6400 jokes:earned
-		cost increase:125%
+		cost increase:110%
 	
 	*abby|abbys
 		name:Abby|Abbys
@@ -131,7 +131,7 @@ Buildings
 		cost:3645 jokes
 		on tick:yield 50 jokes
 		req:25600 jokes:earned
-		cost increase:130%
+		cost increase:112%
 		
 Upgrades
 	*TEMPLATE
