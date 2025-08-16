@@ -10,7 +10,7 @@ Settings
 	background:stuff/meadow.jpg
 	building cost refund:50%
 	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
-	stylesheet:Styles.css
+	stylesheet:Styles.txt
 
 Layout
 	use default
