@@ -94,6 +94,7 @@ Buildings
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Tommy.png
 		cost:45 comedyPoints
 		on tick:yield 1 comedyPoint
+		req:100 comedyPoints:earned
 
 	*leo|leos
 		name:Leo|Leos
@@ -101,6 +102,7 @@ Buildings
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Tommy.png
 		cost:135 comedyPoints
 		on tick:yield 3 comedyPoint
+		req:400 comedyPoints:earned
 
 	*tommy|tommys
 		name:Tommy|Tommys
@@ -108,6 +110,7 @@ Buildings
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Tommy.png
 		cost:405 comedyPoints
 		on tick:yield 8 comedyPoint
+		req:1600 comedyPoints:earned
 	
 	*alessandro|alessandros
 		name:Alessandro|Alessandros
@@ -115,7 +118,7 @@ Buildings
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Alessandro.png
 		cost:1215 comedyPoints
 		on tick:yield 20 comedyPoints
-		req:100 comedyPoints:earned
+		req:6400 comedyPoints:earned
 	
 	*abby|abbys
 		name:Abby|Abbys
@@ -123,7 +126,7 @@ Buildings
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Abby.png
 		cost:3645 comedyPoints
 		on tick:yield 50 comedyPoints
-		req:1000 comedyPoints:earned
+		req:25600 comedyPoints:earned
 		
 Upgrades
 	*TEMPLATE
@@ -140,17 +143,17 @@ Upgrades
 
 	*twitterDotCom
 		name:twitter.com
-		desc:The funniest and least offensive jokes come from here.<//><b>Effect:</b><.>comedy points per click *2
+		desc:The funniest and least offensive jokes come from here.<//><b>Effect:</b><.>comedy points per click *3
 		cost:500 comedyPoints
 		passive:multiply comedyPoint yield of impButton by 2
-		req:300 comedyPoints:earned
+		req:500 comedyPoints:earned
 
 	*onionSubscription
 		name:A Print Subscription to The Onion
-		desc:Global Tetrahedron thanks you.<//><b>Effect:</b><.>comedy points per click *2
+		desc:Global Tetrahedron thanks you.<//><b>Effect:</b><.>comedy points per click *4
 		cost:900 comedyPoints
 		passive:multiply comedyPoint yield of impButton by 2
-		req:1000 comedyPoints:earned
+		req:2500 comedyPoints:earned
 	
 	//building upgrades
 
