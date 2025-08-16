@@ -82,7 +82,7 @@ Buildings
 	*ethan|ethans
 		name:Ethan|Ethans
 		desc:.<//><b>Effect:</b><.>Produces .5 jokes per second.
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Tommy.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Tommy.png
 		cost:15 jokes
 		on tick:yield 0.5 joke
 		unlocked
@@ -91,7 +91,7 @@ Buildings
 	*isaac|isaacs
 		name:Isaac|Isaacs
 		desc:.<//><b>Effect:</b><.>Produces 1 jokes per second.
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Tommy.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Tommy.png
 		cost:45 jokes
 		on tick:yield 1 joke
 		req:100 jokes:earned
@@ -100,7 +100,7 @@ Buildings
 	*leo|leos
 		name:Leo|Leos
 		desc:.<//><b>Effect:</b><.>Produces 3 jokes per second.
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Tommy.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Tommy.png
 		cost:135 jokes
 		on tick:yield 3 joke
 		req:400 jokes:earned
@@ -109,7 +109,7 @@ Buildings
 	*tommy|tommys
 		name:Tommy|Tommys
 		desc:.<//><b>Effect:</b><.>Produces 8 jokes per second.
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Tommy.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Tommy.png
 		cost:405 jokes
 		on tick:yield 8 joke
 		req:1600 jokes:earned
@@ -118,7 +118,7 @@ Buildings
 	*alessandro|alessandros
 		name:Alessandro|Alessandros
 		desc:He's been here the whole time.<//><b>Effect:</b><.>Produces 20 jokes per second.
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Alessandro.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Alessandro.png
 		cost:1215 jokes
 		on tick:yield 20 jokes
 		req:6400 jokes:earned
@@ -127,7 +127,7 @@ Buildings
 	*abby|abbys
 		name:Abby|Abbys
 		desc:Will kill you with hammers.<//><b>Effect:</b><.>Produces 50 jokes per second.
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Abby.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Abby.png
 		cost:3645 jokes
 		on tick:yield 50 jokes
 		req:25600 jokes:earned
@@ -168,7 +168,7 @@ Upgrades
 	*ethan1
 		name:Ethan1
 		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Ethan production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building1/Mackenzie.png
 		cost:100 jokes
 		passive:multiply yield of ethan by 2
 		req:ethans>=10
@@ -249,7 +249,7 @@ Upgrades
 	*mackenzie
 		name:Mackenzie
 		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Tommy production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building1/Mackenzie.png
 		cost:1550 jokes
 		passive:multiply yield of tommy by 2
 		req:tommys>=10
@@ -267,7 +267,7 @@ Upgrades
 	*barOfSoap
 		name:A Bar of Soap
 		desc:What do I care? I eat soap.<//><b>Effect:</b><.>Tommy production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Soap.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building3/Soap.png
 		cost:18900 jokes
 		passive:multiply yield of tommy by 2
 		req:tommys>=30
@@ -276,7 +276,7 @@ Upgrades
 	*sabrina
 		name:Sabrina
 		desc:She's a real space cadet.<//><b>Effect:</b><.>Alessandro production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Sabrina.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building1/Sabrina.png
 		cost:3875 jokes
 		passive:multiply yield of alessandro by 2
 		req:alessandros>=10
@@ -294,7 +294,7 @@ Upgrades
 	*stupidLittleHat
 		name:A Stupid Little Hat
 		desc:Goes perfectly with a pair of Coddies.<//><b>Effect:</b><.>Alessandro production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Hat.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building3/Hat.png
 		cost:47450 jokes
 		passive:multiply yield of alessandro by 2
 		req:alessandros>=30
@@ -303,7 +303,7 @@ Upgrades
 	*eli
 		name:Eli
 		desc:Have you met my best friend Eli?<//><b>Effect:</b><.>Abby production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Eli.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building1/Eli.png
 		cost:9690 jokes
 		passive:multiply yield of abby by 2
 		req:abbys>=10
@@ -321,7 +321,7 @@ Upgrades
 	*mashSideblog
 		name:A M*A*S*H Sideblog
 		desc:Alan Alda's grandson follows me.<//><b>Effect:</b><.>Abby production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Blog.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building3/Blog.png
 		cost:118670 jokes
 		passive:multiply yield of abby by 2
 		req:abbys>=30

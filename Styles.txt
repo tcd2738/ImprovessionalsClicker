@@ -3,7 +3,7 @@
 .shrinkIcon
 {
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center !important;
 	background-size: 40px;
 }
 
