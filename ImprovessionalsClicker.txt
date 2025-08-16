@@ -27,6 +27,7 @@ Buttons
 			else if (have quoteJar)
 				if (chance(1%)) yield 1 zinger
 			end
+		end
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/ImprovessionalsLogo.png
 		no text
 		class:bigButton hasFlares
