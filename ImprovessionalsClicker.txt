@@ -30,18 +30,16 @@ Buttons
 			if (have obsession) totalYield + (0.01*jokes:ps)
 
 			if (have weed)
-				$totalYield * 5
+				yield ($totalYield*5) jokes
 			else if (have onionSubscription)
-				$totalYield * 4				
+				yield ($totalYield*4) jokes			
 			else if (have twitterDotCom)
-				$totalYield * 3		
+				yield ($totalYield*3) jokes	
 			else if (have ucbManual)
-				$totalYield * 2	
+				yield ($totalYield*2) jokes
 			else
-				$totalYield * 1		
+				yield $totalYield jokes	
 			end
-
-			yield totalYield jokes
 		end
 		on click:
 			if (have customCahDeck)
