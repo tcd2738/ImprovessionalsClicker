@@ -20,7 +20,6 @@ Buttons
 		name:Make a joke!
 		desc:Click The Improvessionals (TM) logo to get more jokes.
 		on click:anim icon wobble
-		on click:yield 1 joke
 		on click:
 			$totalYield=1
 			if (have voice) totalYield + (0.01*jokes:ps)
@@ -37,7 +36,9 @@ Buttons
 			else if (have twitterDotCom)
 				$totalYield * 3		
 			else if (have ucbManual)
-				$totalYield * 2			
+				$totalYield * 2	
+			else
+				$totalYield * 1		
 			end
 
 			yield totalYield jokes
