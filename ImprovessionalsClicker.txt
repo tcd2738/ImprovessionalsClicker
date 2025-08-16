@@ -21,9 +21,7 @@ Buttons
 		desc:Click The Improvessionals (TM) logo to get more jokes.
 		on click:anim icon wobble
 		on click:yield 1 joke
-		on click:
-			if (have weed) yield (0.01*jokes:ps) jokes
-		end
+		on click:if (have weed) yield (0.01*jokes:ps) jokes
 		on click:
 			if (have customCahDeck)
 				if (chance(2%)) yield 1 zinger
