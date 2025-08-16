@@ -471,43 +471,43 @@ Upgrades
 
 	//focus upgrades
 	*austin
-		name:Quote Jar
-		desc:Your friends love it when you read through the quote jar.<//><b>Effect:</b><.>1% chance of gaining a zinger per joke
+		name:Austin
+		desc:<//><b>Effect:</b><.>joke production multiplier +2%
 		icon:icons[2,5]
-		cost:1 zinger
-		req:1 zinger:earned
+		cost:10000
+		req:have focusTheater
 		icon class:shrinkIcon
 
 	*bj
-		name:Quote Jar
-		desc:Your friends love it when you read through the quote jar.<//><b>Effect:</b><.>1% chance of gaining a zinger per joke
+		name:BJ
+		desc:<//><b>Effect:</b><.>joke production multiplier +4%
 		icon:icons[2,5]
-		cost:1 zinger
-		req:1 zinger:earned
+		cost:100000
+		req:have austin
 		icon class:shrinkIcon
 
 	*jft
-		name:Quote Jar
-		desc:Your friends love it when you read through the quote jar.<//><b>Effect:</b><.>1% chance of gaining a zinger per joke
+		name:JFT
+		desc:<//><b>Effect:</b><.>joke production multiplier +6%
 		icon:icons[2,5]
-		cost:1 zinger
-		req:1 zinger:earned
+		cost:100000
+		req:have bj
 		icon class:shrinkIcon
 
 	*keith
-		name:Quote Jar
-		desc:Your friends love it when you read through the quote jar.<//><b>Effect:</b><.>1% chance of gaining a zinger per joke
+		name:Keith
+		desc:<//><b>Effect:</b><.>joke production multiplier +8%
 		icon:icons[2,5]
-		cost:1 zinger
-		req:1 zinger:earned
+		cost:1000000
+		req:have jft
 		icon class:shrinkIcon
 
 	*roger
-		name:Quote Jar
-		desc:Your friends love it when you read through the quote jar.<//><b>Effect:</b><.>1% chance of gaining a zinger per joke
+		name:Roger
+		desc:<//><b>Effect:</b><.>joke production multiplier +10%
 		icon:icons[2,5]
-		cost:1 zinger
-		req:1 zinger:earned
+		cost:1000000
+		req:have keith
 		icon class:shrinkIcon
 		
 	//zinger upgrades
