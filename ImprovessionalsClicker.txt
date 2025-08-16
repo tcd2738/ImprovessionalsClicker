@@ -22,12 +22,25 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 joke
 		on click:
-			if (have voice) yield (0.01*jokes:ps) jokes
-			if (have attitude) yield (0.01*jokes:ps) jokes
-			if (have posture) yield (0.01*jokes:ps) jokes
-			if (have animal) yield (0.01*jokes:ps) jokes
-			if (have prop) yield (0.01*jokes:ps) jokes
-			if (have obsession) yield (0.01*jokes:ps) jokes
+			$totalYield=1
+			if (have voice) totalYield + (0.01*jokes:ps)
+			if (have attitude) totalYield + (0.01*jokes:ps)
+			if (have posture) totalYield + (0.01*jokes:ps)
+			if (have animal) totalYield + (0.01*jokes:ps)
+			if (have prop) totalYield + (0.01*jokes:ps)
+			if (have obsession) totalYield + (0.01*jokes:ps)
+
+			if (have weed)
+				$totalYield * 5
+			else if (have onionSubscription)
+				$totalYield * 4				
+			else if (have twitterDotCom)
+				$totalYield * 3		
+			else if (have ucbManual)
+				$totalYield * 2			
+			end
+
+			yield totalYield jokes
 		end
 		on click:
 			if (have customCahDeck)
@@ -161,7 +174,6 @@ Upgrades
 		desc:It's all about game babey!<//><b>Effect:</b><.>jokes per click *2
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Click/UCB.png
 		cost:100 jokes
-		passive:multiply joke yield of impButton by 2
 		req:100 jokes:earned
 		icon class:shrinkIcon
 
@@ -170,7 +182,6 @@ Upgrades
 		desc:The funniest and least offensive jokes come from here.<//><b>Effect:</b><.>jokes per click *3
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Click/Twitter.png
 		cost:500 jokes
-		passive:multiply joke yield of impButton by 3
 		req:500 jokes:earned
 		icon class:shrinkIcon
 
@@ -179,7 +190,6 @@ Upgrades
 		desc:Global Tetrahedron thanks you.<//><b>Effect:</b><.>jokes per click *4
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Click/Onion.png
 		cost:900 jokes
-		passive:multiply joke yield of impButton by 4
 		req:2500 jokes:earned
 		icon class:shrinkIcon
 
@@ -188,7 +198,6 @@ Upgrades
 		desc:Supposedly makes you funnier.<//><b>Effect:</b><.>jokes per click *5
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Click/Onion.png
 		cost:1600 jokes
-		passive:multiply joke yield of impButton by 4
 		req:12500 jokes
 		icon class:shrinkIcon
 
@@ -459,6 +468,47 @@ Upgrades
 		passive:multiply yield of alessandros by 1.1
 		passive:multiply yield of abbys by 1.1
 		req:(isaacs>=20 and leos>=20 and tommys>=20 and alessandros>=20 and abbys>=20)
+		icon class:shrinkIcon
+
+	//focus upgrades
+	*austin
+		name:Quote Jar
+		desc:Your friends love it when you read through the quote jar.<//><b>Effect:</b><.>1% chance of gaining a zinger per joke
+		icon:icons[2,5]
+		cost:1 zinger
+		req:1 zinger:earned
+		icon class:shrinkIcon
+
+	*bj
+		name:Quote Jar
+		desc:Your friends love it when you read through the quote jar.<//><b>Effect:</b><.>1% chance of gaining a zinger per joke
+		icon:icons[2,5]
+		cost:1 zinger
+		req:1 zinger:earned
+		icon class:shrinkIcon
+
+	*jft
+		name:Quote Jar
+		desc:Your friends love it when you read through the quote jar.<//><b>Effect:</b><.>1% chance of gaining a zinger per joke
+		icon:icons[2,5]
+		cost:1 zinger
+		req:1 zinger:earned
+		icon class:shrinkIcon
+
+	*keith
+		name:Quote Jar
+		desc:Your friends love it when you read through the quote jar.<//><b>Effect:</b><.>1% chance of gaining a zinger per joke
+		icon:icons[2,5]
+		cost:1 zinger
+		req:1 zinger:earned
+		icon class:shrinkIcon
+
+	*roger
+		name:Quote Jar
+		desc:Your friends love it when you read through the quote jar.<//><b>Effect:</b><.>1% chance of gaining a zinger per joke
+		icon:icons[2,5]
+		cost:1 zinger
+		req:1 zinger:earned
 		icon class:shrinkIcon
 		
 	//zinger upgrades
