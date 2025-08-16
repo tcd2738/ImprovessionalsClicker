@@ -63,7 +63,7 @@ Shinies
 			$jokeBoost=1
 			$zingerBoost=1
 			if (have focusTheater)
-				%zingerBoost=2
+				$zingerBoost=2
 			end
 
 
