@@ -145,6 +145,7 @@ Upgrades
 		cost:100 jokes
 		passive:multiply joke yield of impButton by 2
 		req:100 jokes:earned
+		class: shrink-icon
 
 	*twitterDotCom
 		name:twitter.com
@@ -152,6 +153,7 @@ Upgrades
 		cost:500 jokes
 		passive:multiply joke yield of impButton by 3
 		req:500 jokes:earned
+		class: shrink-icon
 
 	*onionSubscription
 		name:A Print Subscription to The Onion
@@ -159,6 +161,7 @@ Upgrades
 		cost:900 jokes
 		passive:multiply joke yield of impButton by 4
 		req:2500 jokes:earned
+		class: shrink-icon
 	
 	//building upgrades
 
@@ -169,6 +172,7 @@ Upgrades
 		cost:100 jokes
 		passive:multiply yield of ethan by 2
 		req:ethans>=10
+		class: shrink-icon
 
 	*ethan2
 		name:Ethan2
@@ -177,6 +181,7 @@ Upgrades
 		cost:350 jokes
 		passive:multiply yield of ethan by 2
 		req:ethans>=20
+		class: shrink-icon
 
 	*ethan3
 		name:Ethan3
@@ -185,6 +190,7 @@ Upgrades
 		cost:1225 jokes
 		passive:multiply yield of ethan by 2
 		req:ethans>=30
+		class: shrink-icon
 
 	*isaac1
 		name:Isaac1
@@ -193,6 +199,7 @@ Upgrades
 		cost:250 jokes
 		passive:multiply yield of isaac by 2
 		req:isaacs>=10
+		class: shrink-icon
 
 	*isaac2
 		name:Isaac2
@@ -201,6 +208,7 @@ Upgrades
 		cost:875 jokes
 		passive:multiply yield of isaac by 2
 		req:isaacs>=20
+		class: shrink-icon
 
 	*isaac3
 		name:Isaac3
@@ -209,6 +217,7 @@ Upgrades
 		cost:3060 jokes
 		passive:multiply yield of isaac by 2
 		req:isaacs>=30
+		class: shrink-icon
 
 	*leo1
 		name:Leo1
@@ -217,6 +226,7 @@ Upgrades
 		cost:625 jokes
 		passive:multiply yield of leo by 2
 		req:leos>=10
+		class: shrink-icon
 
 	*leo2
 		name:Leo2
@@ -225,6 +235,7 @@ Upgrades
 		cost:2180 jokes
 		passive:multiply yield of leo by 2
 		req:leos>=20
+		class: shrink-icon
 
 	*leo3
 		name:Leo3
@@ -233,6 +244,7 @@ Upgrades
 		cost:7650 jokes
 		passive:multiply yield of leo by 2
 		req:leos>=30
+		class: shrink-icon
 
 	*mackenzie
 		name:Mackenzie
@@ -241,6 +253,7 @@ Upgrades
 		cost:1550 jokes
 		passive:multiply yield of tommy by 2
 		req:tommys>=10
+		class: shrink-icon
 
 	*marriage
 		name:Marriage
@@ -249,6 +262,7 @@ Upgrades
 		cost:5425 jokes
 		passive:multiply yield of tommy by 2
 		req:tommys>=20
+		class: shrink-icon
 
 	*barOfSoap
 		name:A Bar of Soap
@@ -257,6 +271,7 @@ Upgrades
 		cost:18900 jokes
 		passive:multiply yield of tommy by 2
 		req:tommys>=30
+		class: shrink-icon
 
 	*sabrina
 		name:Sabrina
@@ -265,6 +280,7 @@ Upgrades
 		cost:3875 jokes
 		passive:multiply yield of alessandro by 2
 		req:alessandros>=10
+		class: shrink-icon
 
 	*sharedCar
 		name:Shared Car
@@ -273,6 +289,7 @@ Upgrades
 		cost:13500 jokes
 		passive:multiply yield of alessandro by 2
 		req:alessandros>=20
+		class: shrink-icon
 
 	*stupidLittleHat
 		name:A Stupid Little Hat
@@ -281,6 +298,7 @@ Upgrades
 		cost:47450 jokes
 		passive:multiply yield of alessandro by 2
 		req:alessandros>=30
+		class: shrink-icon
 		
 	*eli
 		name:Eli
@@ -289,6 +307,7 @@ Upgrades
 		cost:9690 jokes
 		passive:multiply yield of abby by 2
 		req:abbys>=10
+		class: shrink-icon
 
 	*disneylandTrip
 		name:Disneyland Trip
@@ -297,6 +316,7 @@ Upgrades
 		cost:33900 jokes
 		passive:multiply yield of abby by 2
 		req:abbys>=20
+		class: shrink-icon
 
 	*mashSideblog
 		name:A M*A*S*H Sideblog
@@ -305,6 +325,7 @@ Upgrades
 		cost:118670 jokes
 		passive:multiply yield of abby by 2
 		req:abbys>=30
+		class: shrink-icon
 
 	*impBabies
 		name:Improvessionals Babies
@@ -314,6 +335,7 @@ Upgrades
 		passive:multiply yield of ethans by 1.2
 		passive:multiply yield of isaacs by 1.2
 		req:(ethans>=20 and isaacs>=10)
+		class: shrink-icon
 	
 	*movieClub
 		name:Movie Club
@@ -324,6 +346,7 @@ Upgrades
 		passive:multiply yield of alessandros by 1.1
 		passive:multiply yield of abbys by 1.1
 		req:(tommys>=20 and abbys>=10 and alessandros>=5)
+		class: shrink-icon
 		
 	//zinger upgrades
 	

@@ -1,6 +1,6 @@
 /* Custom Styles */
 
-.thing-icon
+.shrink-icon
 {
 	background-repeat: no-repeat;
 	background-position: center;
