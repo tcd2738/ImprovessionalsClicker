@@ -21,6 +21,13 @@ Buttons
 		desc:Click The Improvessionals (TM) logo to get more jokes.
 		on click:anim icon wobble
 		on click:
+			if (have customCahDeck)
+				if (chance(2%)) yield 1 zinger
+			else if (have quoteJar)
+				if (chance(1%)) yield 1 zinger
+			end
+		end
+		on click:
 			$totalYield=1
 			if (have voice) totalYield + (0.01*jokes:ps)
 			if (have attitude) totalYield + (0.01*jokes:ps)
@@ -39,14 +46,6 @@ Buttons
 				yield ($totalYield*2) jokes
 			else
 				yield $totalYield jokes	
-			end
-			end
-		end
-		on click:
-			if (have customCahDeck)
-				if (chance(2%)) yield 1 zinger
-			else if (have quoteJar)
-				if (chance(1%)) yield 1 zinger
 			end
 		end
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/ImprovessionalsLogo.png
