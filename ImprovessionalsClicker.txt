@@ -22,12 +22,12 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 joke
 		on click:
-			if (have voice) yield (0.01*jokes:ps) jokes for 1%
-			if (have attitude) yield (0.01*jokes:ps) jokes for 1%
-			if (have posture) yield (0.01*jokes:ps) jokes for 1%
-			if (have animal) yield (0.01*jokes:ps) jokes for 1%
-			if (have prop) yield (0.01*jokes:ps) jokes for 1%
-			if (have obsession) yield (0.01*jokes:ps) jokes for 1%	
+			if (have voice) yield (0.01*jokes:ps) jokes
+			if (have attitude) yield (0.01*jokes:ps) jokes
+			if (have posture) yield (0.01*jokes:ps) jokes
+			if (have animal) yield (0.01*jokes:ps) jokes
+			if (have prop) yield (0.01*jokes:ps) jokes
+			if (have obsession) yield (0.01*jokes:ps) jokes
 		end
 		on click:
 			if (have customCahDeck)
