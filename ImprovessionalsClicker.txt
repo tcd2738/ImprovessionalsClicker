@@ -82,7 +82,7 @@ Buildings
 	*ethan|ethans
 		name:Ethan|Ethans
 		desc:.<//><b>Effect:</b><.>Produces .5 jokes per second.
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Tommy.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Ethan.png
 		cost:15 jokes
 		on tick:yield 0.5 joke
 		unlocked
@@ -91,7 +91,7 @@ Buildings
 	*isaac|isaacs
 		name:Isaac|Isaacs
 		desc:.<//><b>Effect:</b><.>Produces 1 jokes per second.
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Tommy.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Isaac.png
 		cost:45 jokes
 		on tick:yield 1 joke
 		req:100 jokes:earned
@@ -100,7 +100,7 @@ Buildings
 	*leo|leos
 		name:Leo|Leos
 		desc:.<//><b>Effect:</b><.>Produces 3 jokes per second.
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Tommy.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Leo.png
 		cost:135 jokes
 		on tick:yield 3 joke
 		req:400 jokes:earned
@@ -330,14 +330,26 @@ Upgrades
 		req:abbys>=30
 		icon class:shrinkIcon
 
+	//combiner upgrades
+
 	*impBabies
 		name:Improvessionals Babies
-		desc:*garbled "Top Gun" theme plays in the background* Hey, this is great!<//><b>Effect:</b><.>Ethan production +20%<.>Isaac production +20%
+		desc:*garbled "Top Gun" theme plays in the background* Hey, this is great!<//><b>Effect:</b><.>Ethan production +10%<.>Isaac production +10%
 		icon:icons[2,0] icons[3,0]
 		cost:10000 jokes
-		passive:multiply yield of ethans by 1.2
-		passive:multiply yield of isaacs by 1.2
+		passive:multiply yield of ethans by 1.1
+		passive:multiply yield of isaacs by 1.1
 		req:(ethans>=20 and isaacs>=10)
+		icon class:shrinkIcon
+
+	*logFlumeBuddies
+		name:Log Flume Buddies
+		desc:Be careful boys, don't get too wet!<//><b>Effect:</b><.>Isaac production +10%<.>Leo production +10%
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/LogFlumeBuddies.png
+		cost:15000 jokes
+		passive:multiply yield of isaacs by 1.1
+		passive:multiply yield of leos by 1.1
+		req:(isaacs>=20 and leos>=10)
 		icon class:shrinkIcon
 	
 	*movieClub
@@ -349,6 +361,17 @@ Upgrades
 		passive:multiply yield of alessandros by 1.1
 		passive:multiply yield of abbys by 1.1
 		req:(tommys>=20 and abbys>=10 and alessandros>=5)
+		icon class:shrinkIcon
+
+	*classOf2022
+		name:Class of 2022
+		desc:You did not come to the show, so we had to gak them.<//><b>Effect:</b><.>Leo production +22%<.>Tommy production +22%<.>Alessandro production +22%
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/ClassOf2022.png
+		cost:220000 jokes
+		passive:multiply yield of leos by 1.22
+		passive:multiply yield of tommys by 1.22
+		passive:multiply yield of alessandros by 1.22
+		req:(leos>=22 and tommys>=22 and alessandros>=22)
 		icon class:shrinkIcon
 		
 	//zinger upgrades
