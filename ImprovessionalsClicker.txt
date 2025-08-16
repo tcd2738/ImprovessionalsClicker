@@ -29,12 +29,24 @@ Buttons
 		end
 		on click:
 			$totalYield=1
-			if (have voice) $totalYield+(0.01*jokes:ps)
-			if (have attitude) $totalYield+(0.01*jokes:ps)
-			if (have posture) $totalYield+(0.01*jokes:ps)
-			if (have animal) $totalYield+(0.01*jokes:ps)
-			if (have prop) $totalYield+(0.01*jokes:ps)
-			if (have obsession) $totalYield+(0.01*jokes:ps)
+			if (have voice) 
+				$totalYield+(0.01*jokes:ps)
+			end
+			if (have attitude)
+				$totalYield+(0.01*jokes:ps)
+			end
+			if (have posture)
+				$totalYield+(0.01*jokes:ps)
+			end
+			if (have animal)
+				$totalYield+(0.01*jokes:ps)
+			end
+			if (have prop)
+				$totalYield+(0.01*jokes:ps)
+			end
+			if (have obsession)
+				$totalYield+(0.01*jokes:ps)
+			end
 
 			if (have weed)
 				yield ($totalYield*5) jokes
