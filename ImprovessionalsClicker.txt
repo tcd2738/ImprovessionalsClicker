@@ -8,7 +8,6 @@ Let's make a game!
 
 Settings
 	background:stuff/meadow.jpg
-	building cost increase:115%
 	building cost refund:50%
 	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
 	stylesheet:stuff/bigBlue.css
@@ -87,6 +86,7 @@ Buildings
 		cost:15 comedyPoints
 		on tick:yield 0.5 comedyPoint
 		unlocked
+		cost increase:105%
 		
 	*isaac|isaacs
 		name:Isaac|Isaacs
@@ -95,6 +95,7 @@ Buildings
 		cost:45 comedyPoints
 		on tick:yield 1 comedyPoint
 		req:100 comedyPoints:earned
+		cost increase:110%
 
 	*leo|leos
 		name:Leo|Leos
@@ -103,6 +104,7 @@ Buildings
 		cost:135 comedyPoints
 		on tick:yield 3 comedyPoint
 		req:400 comedyPoints:earned
+		cost increase:115%
 
 	*tommy|tommys
 		name:Tommy|Tommys
@@ -111,6 +113,7 @@ Buildings
 		cost:405 comedyPoints
 		on tick:yield 8 comedyPoint
 		req:1600 comedyPoints:earned
+		cost increase:120%
 	
 	*alessandro|alessandros
 		name:Alessandro|Alessandros
@@ -119,6 +122,7 @@ Buildings
 		cost:1215 comedyPoints
 		on tick:yield 20 comedyPoints
 		req:6400 comedyPoints:earned
+		cost increase:125%
 	
 	*abby|abbys
 		name:Abby|Abbys
@@ -127,6 +131,7 @@ Buildings
 		cost:3645 comedyPoints
 		on tick:yield 50 comedyPoints
 		req:25600 comedyPoints:earned
+		cost increase:130%
 		
 Upgrades
 	*TEMPLATE
@@ -303,11 +308,11 @@ Upgrades
 
 	*impBabies
 		name:Improvessionals Babies
-		desc:*garbled "Top Gun" theme plays in the background* Hey, this is great!<//><b>Effect:</b><.>Ethan production +10%<.>Isaac production +10%
+		desc:*garbled "Top Gun" theme plays in the background* Hey, this is great!<//><b>Effect:</b><.>Ethan production +20%<.>Isaac production +20%
 		icon:icons[2,0] icons[3,0]
 		cost:10000 comedyPoints
-		passive:multiply yield of ethans by 1.1
-		passive:multiply yield of isaacs by 1.1
+		passive:multiply yield of ethans by 1.2
+		passive:multiply yield of isaacs by 1.2
 		req:(ethans>=20 and isaacs>=10)
 	
 	*movieClub
