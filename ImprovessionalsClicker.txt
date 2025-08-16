@@ -22,6 +22,9 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 joke
 		on click:
+			if (have weed) yield (0.01*jokes:ps) jokes
+		end
+		on click:
 			if (have customCahDeck)
 				if (chance(2%)) yield 1 zinger
 			else if (have quoteJar)
@@ -68,7 +71,7 @@ Shinies
 		on click:
 			$jokeBoost=1
 			$zingerBoost=1
-			if (have focusTheater) $zingerBoost=2
+			if (have webbAuditorium) $zingerBoost=2
 
 			if (chance(5%))
 				yield 1 toastTheCat
@@ -174,6 +177,15 @@ Upgrades
 		passive:multiply joke yield of impButton by 4
 		req:2500 jokes:earned
 		icon class:shrinkIcon
+
+	*weed
+		name:Weed
+		desc:Supposedly makes you funnier.<//><b>Effect:</b><.>clicking gains 1% of your jokes per second
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Click/Onion.png
+		cost:2000 jokes
+		req:12500 jokes
+		icon class:shrinkIcon
+		
 	
 	//building upgrades
 
@@ -401,23 +413,22 @@ Upgrades
 		
 	*eBoard
 		name:E-board
-		desc:A bunch of people that will sit around and complain about you.<//><b>Effect:</b><.>quacklemore appears 10% more often
+		desc:A bunch of people that will sit around and complain about you.<//><b>Effect:</b><.>quacklemore appears 20% more often
 		icon:icons[2,6]
-		passive:multiply frequency of quacklemore by 0.90
+		passive:multiply frequency of quacklemore by 0.80
 		cost:3 zingers
 		req:2 zinger:earned
 
-	*webbAuditorium
-		name:Webb Auditorium
-		desc:Despite what everyone else says, this is a much better space than Ingle Auditorium.<//><b>Effect:</b><.>quacklemore appears 20% more often
+	*focusTheater
+		name:The Focus Theater
+		desc:Take a workshop. You'll need the experience in the coming days.<//><b>Effect:</b><.>unlocks management production boosts
 		icon:icons[2,6]
-		passive:multiply frequency of quacklemore by 0.80
 		cost:5 zingers
 		req:3 zinger:earned
 
-	*focusTheater
-		name:The Focus Theater
-		desc:Take a workshop. You'll need the experience in the coming days.<//><b>Effect:</b><.>quacklemore drops twice as many zingers
+	*webbAuditorium
+		name:Webb Auditorium
+		desc:Despite what everyone else says, this is a much better space than Ingle Auditorium.<//><b>Effect:</b><.>quacklemore drops twice as many zingers
 		icon:icons[2,6]
 		cost:8 zingers
 		req:5 zinger:earned
