@@ -69,7 +69,7 @@ Shinies
 
 			if (chance(5%))
 				yield 1 toastTheCat
-			else if (chance(60%))
+			else if (chance(50%))
 				//get at least 7, or between 1 and 3 minutes of our joke production
 				$amount=max(7,random(jokes:ps*60*1,jokes:ps*60*3))*$jokeBoost
 				toast Quacklemore grants you<//><b>[$amount] jokes</b>.
