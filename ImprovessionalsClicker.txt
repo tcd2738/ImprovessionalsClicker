@@ -21,27 +21,6 @@ Buttons
 		desc:Click The Improvessionals (TM) logo to get more jokes.
 		on click:anim icon wobble
 		on click:
-			$totalYield=1
-			if (have voice) totalYield + (0.01*jokes:ps)
-			if (have attitude) totalYield + (0.01*jokes:ps)
-			if (have posture) totalYield + (0.01*jokes:ps)
-			if (have animal) totalYield + (0.01*jokes:ps)
-			if (have prop) totalYield + (0.01*jokes:ps)
-			if (have obsession) totalYield + (0.01*jokes:ps)
-
-			if (have weed)
-				yield ($totalYield*5) jokes
-			else if (have onionSubscription)
-				yield ($totalYield*4) jokes			
-			else if (have twitterDotCom)
-				yield ($totalYield*3) jokes	
-			else if (have ucbManual)
-				yield ($totalYield*2) jokes
-			else
-				yield $totalYield jokes	
-			end
-		end
-		on click:
 			if (have customCahDeck)
 				if (chance(2%)) yield 1 zinger
 			else if (have quoteJar)
