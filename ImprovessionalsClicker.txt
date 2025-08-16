@@ -79,29 +79,50 @@ Shinies
 Buildings
 	*TEMPLATE
 		on click:anim glow
-		
-	*tommy|tommys
-		name:Tommy|Tommys
+
+	*ethan|ethans
+		name:Ethan|Ethans
 		desc:.<//><b>Effect:</b><.>Produces .5 comedy points per second.
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Tommy.png
 		cost:15 comedyPoints
 		on tick:yield 0.5 comedyPoint
 		unlocked
-	
-	*abby|abbys
-		name:Abby|Abbys
-		desc:Will kill you with hammers.<//><b>Effect:</b><.>Produces 2 comedy points per second.
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Abby.png
-		cost:100 comedyPoints
-		on tick:yield 2 comedyPoints
-		req:100 comedyPoints:earned
+		
+	*isaac|isaacs
+		name:Isaac|Isaacs
+		desc:.<//><b>Effect:</b><.>Produces 1 comedy points per second.
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Tommy.png
+		cost:45 comedyPoints
+		on tick:yield 1 comedyPoint
+
+	*leo|leos
+		name:Leo|Leos
+		desc:.<//><b>Effect:</b><.>Produces 3 comedy points per second.
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Tommy.png
+		cost:135 comedyPoints
+		on tick:yield 3 comedyPoint
+
+	*tommy|tommys
+		name:Tommy|Tommys
+		desc:.<//><b>Effect:</b><.>Produces 8 comedy points per second.
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Tommy.png
+		cost:405 comedyPoints
+		on tick:yield 8 comedyPoint
 	
 	*alessandro|alessandros
 		name:Alessandro|Alessandros
-		desc:He's been here the whole time.<//><b>Effect:</b><.>Produces 5 comedy points per second.
+		desc:He's been here the whole time.<//><b>Effect:</b><.>Produces 20 comedy points per second.
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Alessandro.png
-		cost:600 comedyPoints
-		on tick:yield 5 comedyPoints
+		cost:1215 comedyPoints
+		on tick:yield 20 comedyPoints
+		req:100 comedyPoints:earned
+	
+	*abby|abbys
+		name:Abby|Abbys
+		desc:Will kill you with hammers.<//><b>Effect:</b><.>Produces 50 comedy points per second.
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Abby.png
+		cost:3645 comedyPoints
+		on tick:yield 50 comedyPoints
 		req:1000 comedyPoints:earned
 		
 Upgrades
@@ -120,24 +141,96 @@ Upgrades
 	*twitterDotCom
 		name:twitter.com
 		desc:The funniest and least offensive jokes come from here.<//><b>Effect:</b><.>comedy points per click *2
-		cost:250 comedyPoints
+		cost:500 comedyPoints
 		passive:multiply comedyPoint yield of impButton by 2
-		req:500 comedyPoints:earned
+		req:300 comedyPoints:earned
 
 	*onionSubscription
 		name:A Print Subscription to The Onion
 		desc:Global Tetrahedron thanks you.<//><b>Effect:</b><.>comedy points per click *2
-		cost:500 comedyPoints
+		cost:900 comedyPoints
 		passive:multiply comedyPoint yield of impButton by 2
 		req:1000 comedyPoints:earned
 	
 	//building upgrades
 
+	*ethan1
+		name:Ethan1
+		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Ethan production *2
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		cost:100 comedyPoints
+		passive:multiply yield of ethan by 2
+		req:ethans>=5
+
+	*ethan2
+		name:Ethan2
+		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Ethan production *2
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		cost:350 comedyPoints
+		passive:multiply yield of ethan by 2
+		req:ethans>=10
+
+	*ethan3
+		name:Ethan3
+		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Ethan production *2
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		cost:1225 comedyPoints
+		passive:multiply yield of ethan by 2
+		req:ethans>=20
+
+	*isaac1
+		name:Isaac1
+		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Isaac production *2
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		cost:250 comedyPoints
+		passive:multiply yield of isaac by 2
+		req:isaacs>=5
+
+	*isaac2
+		name:Isaac2
+		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Isaac production *2
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		cost:875 comedyPoints
+		passive:multiply yield of isaac by 2
+		req:isaacs>=10
+
+	*isaac3
+		name:Isaac3
+		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Isaac production *2
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		cost:3060 comedyPoints
+		passive:multiply yield of isaac by 2
+		req:isaacs>=20
+
+	*leo1
+		name:Leo1
+		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Leo production *2
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		cost:625 comedyPoints
+		passive:multiply yield of leo by 2
+		req:leos>=5
+
+	*leo2
+		name:Leo2
+		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Leo production *2
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		cost:2180 comedyPoints
+		passive:multiply yield of leo by 2
+		req:leos>=10
+
+	*leo3
+		name:Leo3
+		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Leo production *2
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		cost:7650 comedyPoints
+		passive:multiply yield of leo by 2
+		req:leos>=20
+
 	*mackenzie
 		name:Mackenzie
 		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Tommy production *2
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
-		cost:100 comedyPoints
+		cost:1550 comedyPoints
 		passive:multiply yield of tommy by 2
 		req:tommys>=5
 
@@ -145,7 +238,7 @@ Upgrades
 		name:Marriage
 		desc:
 		icon:icons[1,1]
-		cost:250 comedyPoints
+		cost:5425 comedyPoints
 		passive:multiply yield of tommy by 2
 		req:tommys>=10
 
@@ -153,39 +246,15 @@ Upgrades
 		name:A Bar of Soap
 		desc:What do I care? I eat soap.<//><b>Effect:</b><.>Tommy production *2
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Soap.png
-		cost:625 comedyPoints
+		cost:18900 comedyPoints
 		passive:multiply yield of tommy by 2
 		req:tommys>=20
-		
-	*eli
-		name:Eli
-		desc:Have you met my best friend Eli?<//><b>Effect:</b><.>Abby production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Eli.png
-		cost:200 comedyPoints
-		passive:multiply yield of abby by 2
-		req:abbys>=5
 
-	*disneylandTrip
-		name:Disneyland Trip
-		desc:If the Enchanted Tiki Room is closed I will kill myself.<//><b>Effect:</b><.>Abby production *2
-		icon:icons[1,1]
-		cost:500 comedyPoints
-		passive:multiply yield of abby by 2
-		req:abbys>=10
-
-	*mashSideblog
-		name:A M*A*S*H Sideblog
-		desc:Alan Alda's grandson follows me.<//><b>Effect:</b><.>Abby production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Blog.png
-		cost:1250 comedyPoints
-		passive:multiply yield of abby by 2
-		req:abbys>=20
-		
 	*sabrina
 		name:Sabrina
 		desc:She's a real space cadet.<//><b>Effect:</b><.>Alessandro production *2
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Sabrina.png
-		cost:400 comedyPoints
+		cost:3875 comedyPoints
 		passive:multiply yield of alessandro by 2
 		req:alessandros>=5
 
@@ -193,7 +262,7 @@ Upgrades
 		name:Shared Car
 		desc:There's shit strewn all over the floor and garbage in the back.<//><b>Effect:</b><.>Alessandro production *2
 		icon:icons[1,1]
-		cost:1000 comedyPoints
+		cost:13500 comedyPoints
 		passive:multiply yield of alessandro by 2
 		req:alessandros>=10
 
@@ -201,16 +270,51 @@ Upgrades
 		name:A Stupid Little Hat
 		desc:Goes perfectly with a pair of Coddies.<//><b>Effect:</b><.>Alessandro production *2
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Hat.png
-		cost:2500 comedyPoints
+		cost:47450 comedyPoints
 		passive:multiply yield of alessandro by 2
 		req:alessandros>=20
+		
+	*eli
+		name:Eli
+		desc:Have you met my best friend Eli?<//><b>Effect:</b><.>Abby production *2
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Eli.png
+		cost:9690 comedyPoints
+		passive:multiply yield of abby by 2
+		req:abbys>=5
+
+	*disneylandTrip
+		name:Disneyland Trip
+		desc:If the Enchanted Tiki Room is closed, I will kill myself.<//><b>Effect:</b><.>Abby production *2
+		icon:icons[1,1]
+		cost:33900 comedyPoints
+		passive:multiply yield of abby by 2
+		req:abbys>=10
+
+	*mashSideblog
+		name:A M*A*S*H Sideblog
+		desc:Alan Alda's grandson follows me.<//><b>Effect:</b><.>Abby production *2
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Blog.png
+		cost:118670 comedyPoints
+		passive:multiply yield of abby by 2
+		req:abbys>=20
+
+	*impBabies
+		name:Improvessionals Babies
+		desc:*garbled "Top Gun" theme plays in the background* Hey, this is great!<//><b>Effect:</b><.>Ethan production +10%<.>Isaac production +10%
+		icon:icons[2,0] icons[3,0]
+		cost:10000 comedyPoints
+		passive:multiply yield of ethans by 1.1
+		multiply yield of isaacs by 1.1
+		req:(ethans>=20 and isaacs>=10)
 	
 	*movieClub
 		name:Movie Club
-		desc:*garbled "Top Gun" theme plays in the background* Hey, this is great!<//><b>Effect:</b><.>comedy point production +5%
+		desc:*garbled "Top Gun" theme plays in the background* Hey, this is great!<//><b>Effect:</b><.>Tommy production +10%<.>Alessandro production +10%<.>Abby production +10%
 		icon:icons[2,0] icons[3,0]
-		cost:1200 comedyPoints
-		passive:multiply yield of comedyPoints by 1.05
+		cost:50000 comedyPoints
+		passive:multiply yield of tommys by 1.1
+		multiply yield of alessandros by 1.1
+		multiply yield of abbys by 1.1
 		req:(tommys>=20 and abbys>=10 and alessandros>=5)
 		
 	//zinger upgrades
