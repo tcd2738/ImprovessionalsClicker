@@ -304,7 +304,7 @@ Upgrades
 		icon:icons[2,0] icons[3,0]
 		cost:10000 comedyPoints
 		passive:multiply yield of ethans by 1.1
-		multiply yield of isaacs by 1.1
+		passive:multiply yield of isaacs by 1.1
 		req:(ethans>=20 and isaacs>=10)
 	
 	*movieClub
@@ -313,8 +313,8 @@ Upgrades
 		icon:icons[2,0] icons[3,0]
 		cost:50000 comedyPoints
 		passive:multiply yield of tommys by 1.1
-		multiply yield of alessandros by 1.1
-		multiply yield of abbys by 1.1
+		passive:multiply yield of alessandros by 1.1
+		passive:multiply yield of abbys by 1.1
 		req:(tommys>=20 and abbys>=10 and alessandros>=5)
 		
 	//zinger upgrades
