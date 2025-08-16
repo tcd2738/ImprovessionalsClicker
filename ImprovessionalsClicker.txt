@@ -145,14 +145,14 @@ Upgrades
 		name:twitter.com
 		desc:The funniest and least offensive jokes come from here.<//><b>Effect:</b><.>comedy points per click *3
 		cost:500 comedyPoints
-		passive:multiply comedyPoint yield of impButton by 2
+		passive:multiply comedyPoint yield of impButton by 3
 		req:500 comedyPoints:earned
 
 	*onionSubscription
 		name:A Print Subscription to The Onion
 		desc:Global Tetrahedron thanks you.<//><b>Effect:</b><.>comedy points per click *4
 		cost:900 comedyPoints
-		passive:multiply comedyPoint yield of impButton by 2
+		passive:multiply comedyPoint yield of impButton by 4
 		req:2500 comedyPoints:earned
 	
 	//building upgrades
