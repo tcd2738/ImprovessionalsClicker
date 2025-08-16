@@ -21,7 +21,12 @@ Buttons
 		desc:Click The Improvessionals (TM) logo to get more jokes.
 		on click:anim icon wobble
 		on click:yield 1 joke
-		on click:if (have quoteJar and chance(1%)) yield 1 zinger
+		on click:
+			if (have customCahDeck)
+				if (chance(2%)) yield 1 zinger
+			else if (have quoteJar)
+				if (chance(1%)) yield 1 zinger
+			end
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/ImprovessionalsLogo.png
 		no text
 		class:bigButton hasFlares
@@ -62,10 +67,7 @@ Shinies
 		on click:
 			$jokeBoost=1
 			$zingerBoost=1
-			if (have focusTheater)
-				$zingerBoost=2
-			end
-
+			if (have focusTheater) $zingerBoost=2
 
 			if (chance(5%))
 				yield 1 toastTheCat
@@ -237,7 +239,7 @@ Upgrades
 		req:leos>=10
 		icon class:shrinkIcon
 
-	*Target
+	*target
 		name:Target
 		desc:Where do they keep the bilk?<//><b>Effect:</b><.>Leo production *2
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
@@ -388,6 +390,13 @@ Upgrades
 		icon:icons[2,5]
 		cost:1 zinger
 		req:1 zinger:earned
+
+	*customCahDeck
+		name:Custom Cards Against Humanity Deck
+		desc:A bunch of jokes and prompts that were funny five years ago.<//><b>Effect:</b><.>2% chance of gaining a zinger per joke
+		icon:icons[2,5]
+		cost:10 zingers
+		req:8 zingers:earned
 		
 	*eBoard
 		name:E-board
