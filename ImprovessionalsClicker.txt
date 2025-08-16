@@ -60,16 +60,22 @@ Shinies
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Quacklemore.png
 		class:bigButton
 		on click:
-			$boost=1
+			$jokeBoost=1
+			$zingerBoost=1
+			if (have focusTheater)
+				%zingerBoost=2
+			end
+
+
 			if (chance(5%))
 				yield 1 toastTheCat
 			else if (chance(60%))
 				//get at least 7, or between 1 and 3 minutes of our joke production
-				$amount=max(7,random(jokes:ps*60*1,jokes:ps*60*3))*$boost
+				$amount=max(7,random(jokes:ps*60*1,jokes:ps*60*3))*$jokeBoost
 				toast Quacklemore grants you<//><b>[$amount] jokes</b>.
 				yield $amount jokes
 			else
-				$amount=1*$boost
+				$amount=1*$zingerBoost
 				toast Quacklemore grants you<//><b>[$amount] zinger[s?$amount]</b>!
 				yield $amount zinger
 			end
@@ -81,7 +87,7 @@ Buildings
 
 	*ethan|ethans
 		name:Ethan|Ethans
-		desc:.<//><b>Effect:</b><.>Produces .5 jokes per second.
+		desc:The best little brother a boy could ask for.<//><b>Effect:</b><.>Produces .5 jokes per second.
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Ethan.png
 		cost:15 jokes
 		on tick:yield 0.5 joke
@@ -90,7 +96,7 @@ Buildings
 		
 	*isaac|isaacs
 		name:Isaac|Isaacs
-		desc:.<//><b>Effect:</b><.>Produces 1 jokes per second.
+		desc:Is NOT an empath.<//><b>Effect:</b><.>Produces 1 jokes per second.
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Isaac.png
 		cost:45 jokes
 		on tick:yield 1 joke
@@ -99,7 +105,7 @@ Buildings
 
 	*leo|leos
 		name:Leo|Leos
-		desc:.<//><b>Effect:</b><.>Produces 3 jokes per second.
+		desc:Has a lot going on right now.<//><b>Effect:</b><.>Produces 3 jokes per second.
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Leo.png
 		cost:135 jokes
 		on tick:yield 3 joke
@@ -108,7 +114,7 @@ Buildings
 
 	*tommy|tommys
 		name:Tommy|Tommys
-		desc:.<//><b>Effect:</b><.>Produces 8 jokes per second.
+		desc:Probably eating a big steak right now.<//><b>Effect:</b><.>Produces 8 jokes per second.
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Tommy.png
 		cost:405 jokes
 		on tick:yield 8 joke
@@ -117,7 +123,7 @@ Buildings
 	
 	*alessandro|alessandros
 		name:Alessandro|Alessandros
-		desc:He's been here the whole time.<//><b>Effect:</b><.>Produces 20 jokes per second.
+		desc:Has been here the whole time.<//><b>Effect:</b><.>Produces 20 jokes per second.
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Alessandro.png
 		cost:1215 jokes
 		on tick:yield 20 jokes
@@ -168,81 +174,81 @@ Upgrades
 	
 	//building upgrades
 
-	*ethan1
-		name:Ethan1
-		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Ethan production *2
+	*jakeStein
+		name:Jake Stein
+		desc:Kind of like Ethan's Wario: Wethan Wilver-Wiskin<//><b>Effect:</b><.>Ethan production *2
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building1/Mackenzie.png
 		cost:100 jokes
 		passive:multiply yield of ethan by 2
 		req:ethans>=10
 		icon class:shrinkIcon
 
-	*ethan2
-		name:Ethan2
-		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Ethan production *2
+	*tripToTheHospital
+		name:A Trip to the Hospital
+		desc:No, not that time, the other time.<//><b>Effect:</b><.>Ethan production *2
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:350 jokes
 		passive:multiply yield of ethan by 2
 		req:ethans>=20
 		icon class:shrinkIcon
 
-	*ethan3
-		name:Ethan3
-		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Ethan production *2
+	*frisbee
+		name:A Frisbee
+		desc:You throw it and stuff. Like with a dog.<//><b>Effect:</b><.>Ethan production *2
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:1225 jokes
 		passive:multiply yield of ethan by 2
 		req:ethans>=30
 		icon class:shrinkIcon
 
-	*isaac1
-		name:Isaac1
-		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Isaac production *2
+	*mikayla
+		name:Mikayla
+		desc:Will let you pet Frida if you ask.<//><b>Effect:</b><.>Isaac production *2
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:250 jokes
 		passive:multiply yield of isaac by 2
 		req:isaacs>=10
 		icon class:shrinkIcon
 
-	*isaac2
-		name:Isaac2
-		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Isaac production *2
+	*newJersey
+		name:New Jersey
+		desc:Mikayla can't come she is visiting her family.<//><b>Effect:</b><.>Isaac production *2
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:875 jokes
 		passive:multiply yield of isaac by 2
 		req:isaacs>=20
 		icon class:shrinkIcon
 
-	*isaac3
-		name:Isaac3
-		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Isaac production *2
+	*speedrunningStrategy
+		name:A Speedrunning Strategy
+		desc:Good for streaming on Twitch.<//><b>Effect:</b><.>Isaac production *2
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:3060 jokes
 		passive:multiply yield of isaac by 2
 		req:isaacs>=30
 		icon class:shrinkIcon
 
-	*leo1
-		name:Leo1
-		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Leo production *2
+	*dakota
+		name:Dakota
+		desc:Roommates 4 life.<//><b>Effect:</b><.>Leo production *2
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:625 jokes
 		passive:multiply yield of leo by 2
 		req:leos>=10
 		icon class:shrinkIcon
 
-	*leo2
-		name:Leo2
-		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Leo production *2
+	*Target
+		name:Target
+		desc:Where do they keep the bilk?<//><b>Effect:</b><.>Leo production *2
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:2180 jokes
 		passive:multiply yield of leo by 2
 		req:leos>=20
 		icon class:shrinkIcon
 
-	*leo3
-		name:Leo3
-		desc:Idiot pervert is just a nickname.<//><b>Effect:</b><.>Leo production *2
+	*beeHole
+		name:A Bee Hole
+		desc:Do you want to see it?<//><b>Effect:</b><.>Leo production *2
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
 		cost:7650 jokes
 		passive:multiply yield of leo by 2
@@ -334,7 +340,7 @@ Upgrades
 
 	*impBabies
 		name:Improvessionals Babies
-		desc:*garbled "Top Gun" theme plays in the background* Hey, this is great!<//><b>Effect:</b><.>Ethan production +10%<.>Isaac production +10%
+		desc:They are so cute when they do improv.<//><b>Effect:</b><.>Ethan production +10%<.>Isaac production +10%
 		icon:icons[2,0] icons[3,0]
 		cost:10000 jokes
 		passive:multiply yield of ethans by 1.1
@@ -398,6 +404,13 @@ Upgrades
 		passive:multiply frequency of quacklemore by 0.80
 		cost:5 zingers
 		req:3 zinger:earned
+
+	*focusTheater
+		name:The Focus Theater
+		desc:Take a workshop. You'll need the experience in the coming days.<//><b>Effect:</b><.>quacklemore drops twice as many zingers
+		icon:icons[2,6]
+		cost:8 zingers
+		req:5 zinger:earned
 		
 Achievements
 	*TEMPLATE
