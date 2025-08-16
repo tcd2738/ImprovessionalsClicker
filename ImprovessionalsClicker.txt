@@ -22,6 +22,14 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 joke
 		on click:
+			if (have voice) yield (0.01*jokes:ps) jokes for 1%
+			if (have attitude) yield (0.01*jokes:ps) jokes for 1%
+			if (have posture) yield (0.01*jokes:ps) jokes for 1%
+			if (have animal) yield (0.01*jokes:ps) jokes for 1%
+			if (have prop) yield (0.01*jokes:ps) jokes for 1%
+			if (have obsession) yield (0.01*jokes:ps) jokes for 1%	
+		end
+		on click:
 			if (have customCahDeck)
 				if (chance(2%)) yield 1 zinger
 			else if (have quoteJar)
@@ -183,7 +191,56 @@ Upgrades
 		passive:multiply joke yield of impButton by 4
 		req:12500 jokes
 		icon class:shrinkIcon
-		
+
+	//vapapo upgrades
+
+	*voice
+		name:Voice
+		desc:You can do a German accent.<//><b>Effect:</b><.>clicks gain 1% of your jokes per second
+		icon:
+		cost:5000 jokes
+		req:have vapapo
+		icon class:shrinkIcon 
+
+	*attitude
+		name:Attitude
+		desc:You can be a meanie.<//><b>Effect:</b><.>clicks gain 1% of your jokes per second
+		icon:
+		cost:50000 jokes
+		req:have voice
+		icon class:shrinkIcon
+
+	*posture
+		name:Posture
+		desc:You can bend over like on old man with a walker.<//><b>Effect:</b><.>clicks gain 1% of your jokes per second
+		icon:
+		cost:500000 jokes
+		req:have attitude
+		icon class:shrinkIcon
+
+	*animal
+		name:Animal
+		desc:You can be mousey like a mouse.<//><b>Effect:</b><.>clicks gain 1% of your jokes per second
+		icon:
+		cost:5000000 jokes
+		req:have posture
+		icon class:shrinkIcon
+
+	*prop
+		name:Prop
+		desc:You can carry around two cacti.<//><b>Effect:</b><.>clicks gain 1% of your jokes per second
+		icon:
+		cost:50000000 jokes
+		req:have animal
+		icon class:shrinkIcon
+
+	*obsession
+		name:Obsession
+		desc:You can spout as many conspiracy theories as you want.<//><b>Effect:</b><.>clicks gain 1% of your jokes per second
+		icon:
+		cost:500000000 jokes
+		req:have prop
+		icon class:shrinkIcon		
 	
 	//building upgrades
 
