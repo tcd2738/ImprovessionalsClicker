@@ -617,7 +617,7 @@ Achievements
 
 	*toastAchiev1
 		name:Toast!
-		desc: Uhh, papa, I think I'm an achievement…
+		desc:Uhh, papa, I think I'm an achievement…
 		req:1 toastTheCat
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Toast1.png
-		class: noImageBorder
+		class:noImageBorder
