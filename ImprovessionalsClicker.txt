@@ -291,7 +291,7 @@ Upgrades
 	*frisbee
 		name:A Frisbee
 		desc:You throw it and stuff. Like with a dog.<//><b>Effect:</b><.>Ethan production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Updgrades/Building3/Frisbee.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building3/Frisbee.png
 		cost:1225 jokes
 		passive:multiply yield of ethan by 2
 		req:ethans>=30
@@ -309,7 +309,7 @@ Upgrades
 	*newJersey
 		name:New Jersey
 		desc:Mikayla can't come she is visiting her family.<//><b>Effect:</b><.>Isaac production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building2/NewJersey.png
 		cost:875 jokes
 		passive:multiply yield of isaac by 2
 		req:isaacs>=20
@@ -318,7 +318,7 @@ Upgrades
 	*speedrunningStrategy
 		name:A Speedrunning Strategy
 		desc:Good for streaming on Twitch.<//><b>Effect:</b><.>Isaac production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building3/SpeedrunningStrat.png
 		cost:3060 jokes
 		passive:multiply yield of isaac by 2
 		req:isaacs>=30
@@ -336,7 +336,7 @@ Upgrades
 	*target
 		name:Target
 		desc:Where do they keep the bilk?<//><b>Effect:</b><.>Leo production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/Upgrades/Building2/Target.png
 		cost:2180 jokes
 		passive:multiply yield of leo by 2
 		req:leos>=20
@@ -345,7 +345,7 @@ Upgrades
 	*beeHole
 		name:A Bee Hole
 		desc:Do you want to see it?<//><b>Effect:</b><.>Leo production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/Upgrades/Building3/BeeHole.png
 		cost:7650 jokes
 		passive:multiply yield of leo by 2
 		req:leos>=30
