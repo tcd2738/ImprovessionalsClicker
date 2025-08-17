@@ -195,6 +195,7 @@
 
 .achievIcon
 {
-	width: 64px;
-	height: 64px;
+	background-repeat: no-repeat;
+	background-position: center !important;
+	background-size: 64px;
 }
