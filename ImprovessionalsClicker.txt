@@ -28,36 +28,36 @@ Buttons
 			end
 		end
 		on click:
-			$totalYield=1
+			$totalJokes=1
 			if (have voice) 
-				$totalYield+(0.01*jokes:ps)
+				$totalJokes+(0.01*jokes:ps)
 			end
 			if (have attitude)
-				$totalYield+(0.01*jokes:ps)
+				$totalJokes+(0.01*jokes:ps)
 			end
 			if (have posture)
-				$totalYield+(0.01*jokes:ps)
+				$totalJokes+(0.01*jokes:ps)
 			end
 			if (have animal)
-				$totalYield+(0.01*jokes:ps)
+				$totalJokes+(0.01*jokes:ps)
 			end
 			if (have prop)
-				$totalYield+(0.01*jokes:ps)
+				$totalJokes+(0.01*jokes:ps)
 			end
 			if (have obsession)
-				$totalYield+(0.01*jokes:ps)
+				$totalJokes+(0.01*jokes:ps)
 			end
 
 			if (have weed)
-				yield ($totalYield*5) jokes
+				yield ($totalJokes*5) jokes
 			else if (have onionSubscription)
-				yield ($totalYield*4) jokes			
+				yield ($totalJokes*4) jokes			
 			else if (have twitterDotCom)
-				yield ($totalYield*3) jokes	
+				yield ($totalJokes*3) jokes	
 			else if (have ucbManual)
-				yield ($totalYield*2) jokes
+				yield ($totalJokes*2) jokes
 			else
-				yield $totalYield jokes	
+				yield $totalJokes jokes	
 			end
 		end
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/ImprovessionalsLogo.png
