@@ -273,7 +273,7 @@ Upgrades
 	*jakeStein
 		name:Jake Stein
 		desc:Kind of like Ethan's Wario: Wethan Wilver-Wiskin<//><b>Effect:</b><.>Ethan production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building1/Mackenzie.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building1/Jake.png
 		cost:100 jokes
 		passive:multiply yield of ethan by 2
 		req:ethans>=10
@@ -282,7 +282,7 @@ Upgrades
 	*tripToTheHospital
 		name:A Trip to the Hospital
 		desc:No, not that time, the other time.<//><b>Effect:</b><.>Ethan production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Building2/Hospital.png
 		cost:350 jokes
 		passive:multiply yield of ethan by 2
 		req:ethans>=20
@@ -291,7 +291,7 @@ Upgrades
 	*frisbee
 		name:A Frisbee
 		desc:You throw it and stuff. Like with a dog.<//><b>Effect:</b><.>Ethan production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Building3/Frisbee.png
 		cost:1225 jokes
 		passive:multiply yield of ethan by 2
 		req:ethans>=30
@@ -300,7 +300,7 @@ Upgrades
 	*mikayla
 		name:Mikayla
 		desc:Will let you pet Frida if you ask.<//><b>Effect:</b><.>Isaac production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Building1/Mikayla.png
 		cost:250 jokes
 		passive:multiply yield of isaac by 2
 		req:isaacs>=10
@@ -327,7 +327,7 @@ Upgrades
 	*dakota
 		name:Dakota
 		desc:Roommates 4 life.<//><b>Effect:</b><.>Leo production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Mackenzie.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Building1/Dakota.png
 		cost:625 jokes
 		passive:multiply yield of leo by 2
 		req:leos>=10
