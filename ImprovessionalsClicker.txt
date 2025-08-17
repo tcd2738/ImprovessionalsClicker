@@ -275,7 +275,7 @@ Upgrades
 
 	*twitterDotCom
 		name:twitter.com
-		desc:The funniest and least offensive jokes come from here.<//><b>Effect:</b><.>jokes per click *3
+		desc:The least offensive jokes come from here.<//><b>Effect:</b><.>jokes per click *3
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Click/Twitter.png
 		cost:500 jokes
 		req:500 jokes:earned
