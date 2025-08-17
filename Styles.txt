@@ -197,7 +197,9 @@
 {
 	background-repeat: no-repeat;
 	background-position: center !important;
-	background-size: 80px;
+	width: 100px;
+	height: 100px;
+	background-size: 100px;
 }
 
 @media (min-width: 1700px) {
