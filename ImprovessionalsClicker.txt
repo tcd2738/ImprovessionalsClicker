@@ -68,14 +68,14 @@ Resources
 	*joke|jokes
 		name:Joke|Jokes
 		desc:These are your jokes. You can use them to purchase things. Your goal is to be as funny as possible!
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/ImprovessionalsMiniLogo.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Resources/Jokes.png
 		class:noBackground
 		show earned
 		
 	*zinger|zingers
 		name:Zinger|Zingers
 		desc:The rarest of jokes, this one is sure to make the audience laugh.
-		icon:icons[0,1]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Resources/Zingers.png
 		class:noBackground
 		hidden when 0
 
