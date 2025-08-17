@@ -10,6 +10,7 @@
 .noImageBorder
 {
 	background: transparent !important;
+	box-shadow: none !important;
 }
 
 /* Default Styles - Big Blue Theme */
