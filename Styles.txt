@@ -184,5 +184,11 @@
 .upgradeBox .box-things
 {
 	width: fit-content;
-	overflow: auto;
+	overflow-x: auto;
+}
+
+.achiev
+{
+	width: 64px;
+	height: 64px;
 }
