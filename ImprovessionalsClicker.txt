@@ -336,7 +336,7 @@ Upgrades
 	*target
 		name:Target
 		desc:Where do they keep the bilk?<//><b>Effect:</b><.>Leo production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/Upgrades/Building2/Target.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building2/Target.png
 		cost:2180 jokes
 		passive:multiply yield of leo by 2
 		req:leos>=20
@@ -345,7 +345,7 @@ Upgrades
 	*beeHole
 		name:A Bee Hole
 		desc:Do you want to see it?<//><b>Effect:</b><.>Leo production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/Upgrades/Building3/BeeHole.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building3/BeeHole.png
 		cost:7650 jokes
 		passive:multiply yield of leo by 2
 		req:leos>=30
@@ -464,7 +464,7 @@ Upgrades
 	*impBabies
 		name:Improvessionals Babies
 		desc:They are so cute when they do improv.<//><b>Effect:</b><.>Ethan production +10%<.>Isaac production +10%
-		icon:iconshttps://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/ImpBabies.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/ImpBabies.png
 		cost:10000 jokes
 		passive:multiply yield of ethans by 1.1
 		passive:multiply yield of isaacs by 1.1
