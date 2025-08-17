@@ -36,32 +36,26 @@ Layout
 
 	*clickUpgrades
 		contains:tag:clickUpgrades
-		header:Click Upgrades
 		costs:hide
 		names:hide
 		class:upgradeBox
-		req:100 jokes:earned
 	*zingerUpgrades
 		contains:tag:zingerUpgrades
-		header:Zinger Upgrades
 		costs:hide
 		names:hide
 		class:upgradeBox
 	*ethanUpgrades
 		contains:tag:ethanUpgrades
-		header:Ethan Upgrades
 		costs:hide
 		names:hide
 		class:upgradeBox
 	*isaacUpgrades
 		contains:tag:isaacUpgrades
-		header:Isaac Upgrades
 		costs:hide
 		names:hide
 		class:upgradeBox
 	*leoUpgrades
 		contains:tag:leoUpgrades
-		header:Leo Upgrades
 		costs:hide
 		names:hide
 		class:upgradeBox
