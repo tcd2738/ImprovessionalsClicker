@@ -748,6 +748,15 @@ Upgrades
 		req:12 zinger:earned
 		icon class:shrinkIcon
 		tag:zingerUpgrades
+
+	*discordServer
+		name:A Discord Server with Nitro
+		desc:It is easier than ever to share your jokes with friends<//><b>Effect:</b><.>Quacklemore joke drops are boosted
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/Discord.png
+		cost:25 zingers
+		req:18 zinger:earned
+		icon class:shrinkIcon
+		tag:zingerUpgrades
 		
 Achievements
 	*TEMPLATE
