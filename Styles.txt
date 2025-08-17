@@ -202,7 +202,7 @@
 	background-size: 64px;
 }
 
-@media (min-width: 1700px) {
+@media screen and (min-width: 1700px) {
 	.building {
 		width: 300px;
 		margin-left: auto;
