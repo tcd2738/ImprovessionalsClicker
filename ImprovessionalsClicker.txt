@@ -282,7 +282,7 @@ Upgrades
 	*tripToTheHospital
 		name:A Trip to the Hospital
 		desc:No, not that time, the other time.<//><b>Effect:</b><.>Ethan production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Building2/Hospital.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building2/Hospital.png
 		cost:350 jokes
 		passive:multiply yield of ethan by 2
 		req:ethans>=20
@@ -291,7 +291,7 @@ Upgrades
 	*frisbee
 		name:A Frisbee
 		desc:You throw it and stuff. Like with a dog.<//><b>Effect:</b><.>Ethan production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Building3/Frisbee.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Updgrades/Building3/Frisbee.png
 		cost:1225 jokes
 		passive:multiply yield of ethan by 2
 		req:ethans>=30
@@ -300,7 +300,7 @@ Upgrades
 	*mikayla
 		name:Mikayla
 		desc:Will let you pet Frida if you ask.<//><b>Effect:</b><.>Isaac production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Building1/Mikayla.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building1/Mikayla.png
 		cost:250 jokes
 		passive:multiply yield of isaac by 2
 		req:isaacs>=10
@@ -327,7 +327,7 @@ Upgrades
 	*dakota
 		name:Dakota
 		desc:Roommates 4 life.<//><b>Effect:</b><.>Leo production *2
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Building1/Dakota.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building1/Dakota.png
 		cost:625 jokes
 		passive:multiply yield of leo by 2
 		req:leos>=10
@@ -464,7 +464,7 @@ Upgrades
 	*impBabies
 		name:Improvessionals Babies
 		desc:They are so cute when they do improv.<//><b>Effect:</b><.>Ethan production +10%<.>Isaac production +10%
-		icon:icons[2,0] icons[3,0]
+		icon:iconshttps://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/ImpBabies.png
 		cost:10000 jokes
 		passive:multiply yield of ethans by 1.1
 		passive:multiply yield of isaacs by 1.1
@@ -484,7 +484,7 @@ Upgrades
 	*movieClub
 		name:Movie Club
 		desc:*garbled "Top Gun" theme plays in the background* Hey, this is great!<//><b>Effect:</b><.>Tommy production +10%<.>Alessandro production +10%<.>Abby production +10%
-		icon:icons[2,0] icons[3,0]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/MovieClub.png
 		cost:50000 jokes
 		passive:multiply yield of tommys by 1.1
 		passive:multiply yield of alessandros by 1.1
@@ -505,8 +505,8 @@ Upgrades
 
 	*dcTrip
 		name:DC Trip
-		desc:What if Joe Biden died while we were here?<//><b>Effect:</b><.>Isaac production +5% <.>Leo production +5%<.>Tommy production +5%<.>Alessandro production +5%<.>Abby production +5%
-		icon:icons[2,0] icons[3,0]
+		desc:Wouldn't it be crazy if Joe Biden died while we were here?<//><b>Effect:</b><.>Isaac production +5% <.>Leo production +5%<.>Tommy production +5%<.>Alessandro production +5%<.>Abby production +5%
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/DcTrip.png
 		cost:300000 jokes
 		passive:multiply yield of tommys by 1.1
 		passive:multiply yield of alessandros by 1.1
