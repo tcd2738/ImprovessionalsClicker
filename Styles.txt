@@ -202,13 +202,6 @@
 }
 	
 .building {
-	width: 300px;
-	margin-left: auto;
-}
-
-@media screen and (min-width: 1700px) {
-	.building {
-		width: 300px;
-		margin-left: auto;
-	}
+	text-align: left;
+	padding-left: 20px;
 }

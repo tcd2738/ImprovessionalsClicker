@@ -118,7 +118,6 @@ Buttons
 				if (chance(1%)) yield 1 zinger
 			end
 		end
-		on click:yield 1 toastTheCat
 		on click:
 			$totalJokes=1
 			$percentOfJps=(0.01*jokes:ps)
