@@ -813,7 +813,7 @@ Achievements
 
 	*toastAchiev8
 		name:Toast (8 of 8)
-		req: toastTheCat
+		req:8 toastTheCat
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Achievements/Toast8.png
 		class:noImageBorder
 		icon class:achievIcon
