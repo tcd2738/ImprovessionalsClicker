@@ -128,7 +128,7 @@ Buildings
 		
 	*isaac|isaacs
 		name:Isaac|Isaacs
-		desc:Is NOT an empath.<//><b>Effect:</b><.>Produces 1 jokes per second.
+		desc:Is an empath.<//><b>Effect:</b><.>Produces 1 jokes per second.
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Isaac.png
 		cost:45 jokes
 		on tick:yield 1 joke
@@ -137,7 +137,7 @@ Buildings
 
 	*leo|leos
 		name:Leo|Leos
-		desc:Has a lot going on right now.<//><b>Effect:</b><.>Produces 3 jokes per second.
+		desc:Not named Steve, contrary to what his jacket says.<//><b>Effect:</b><.>Produces 3 jokes per second.
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Leo.png
 		cost:135 jokes
 		on tick:yield 3 joke
@@ -619,4 +619,4 @@ Achievements
 		name:Toast!
 		desc: Uhh, papa, I think I'm an achievement…
 		req:1 toastTheCat
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Toast.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Toast1.png
