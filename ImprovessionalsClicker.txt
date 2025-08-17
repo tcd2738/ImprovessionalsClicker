@@ -37,61 +37,73 @@ Layout
 		header:Click Upgrades
 		costs:hide
 		names:hide
+		class:updgradeBox
 	*zingerUpgrades
 		contains:tag:zingerUpgrades
 		header:Zinger Upgrades
 		costs:hide
 		names:hide
+		class:updgradeBox
 	*ethanUpgrades
 		contains:tag:ethanUpgrades
 		header:Ethan Upgrades
 		costs:hide
 		names:hide
+		class:updgradeBox
 	*isaacUpgrades
 		contains:tag:isaacUpgrades
 		header:Isaac Upgrades
 		costs:hide
 		names:hide
+		class:updgradeBox
 	*leoUpgrades
 		contains:tag:leoUpgrades
 		header:Leo Upgrades
 		costs:hide
 		names:hide
+		class:updgradeBox
 	*tommyUpgrades
 		contains:tag:tommyUpgrades
 		header:Tommy Upgrades
 		costs:hide
 		names:hide
+		class:updgradeBox
 	*alessandroUpgrades
 		contains:tag:alessandroUpgrades
 		header:Alessandro Upgrades
 		costs:hide
 		names:hide
+		class:updgradeBox
 	*abbyUpgrades
 		contains:tag:abbyUpgrades
 		header:Abby Upgrades
 		costs:hide
 		names:hide
+		class:updgradeBox
 	*johnnyUpgrades
 		contains:tag:johnnyUpgrades
 		header:Johnny Upgrades
 		costs:hide
 		names:hide
+		class:updgradeBox
 	*combinerUpgrades
 		contains:tag:combinerUpgrades
 		header:Combiner Upgrades
 		costs:hide
 		names:hide
+		class:updgradeBox
 	*vapapoUpgrades
 		contains:tag:vapapoUpgrades
 		header:VAPAPO Upgrades
 		costs:hide
 		names:hide
+		class:updgradeBox
 	*focusUpgrades
 		contains:tag:focusUpgrades
 		header:Focus Management Upgrades
 		costs:hide
 		names:hide
+		class:updgradeBox
 	
 Buttons
 	*impButton
