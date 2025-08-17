@@ -173,7 +173,7 @@ Buildings
 	
 	*johnny|johnnys
 		name:Johnny|Johnnys
-		dec:Loves doggos, puppers, and woofers.<//><b>Effect:</b><.>Produces 120 jokes per second.
+		desc:Loves doggos, puppers, and woofers.<//><b>Effect:</b><.>Produces 120 jokes per second.
 		icon:
 		cost:10930 jokes
 		on tick:yield 120 jokes
