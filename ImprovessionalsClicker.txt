@@ -26,6 +26,7 @@ Layout
 			contains:BulkDisplay, Buildings
 			header:Buildings
 			tooltip origin:left
+			ps:show
 		*upgrades
 			contains:clickUpgrades, zingerUpgrades, ethanUpgrades, isaacUpgrades, leoUpgrades, tommyUpgrades, alessandroUpgrades, abbyUpgrades, johnnyUpgrades, combinerUpgrades, vapapoUpgrades, focusUpgrades
 			costs:hide
@@ -39,6 +40,7 @@ Layout
 		costs:hide
 		names:hide
 		class:upgradeBox
+		req:100 jokes:earned
 	*zingerUpgrades
 		contains:tag:zingerUpgrades
 		header:Zinger Upgrades
@@ -373,7 +375,7 @@ Upgrades
 
 	*jakeStein
 		name:Jake Stein
-		desc:Kind of like Ethan's Wario: Wethan Wilver-Wiskin<//><b>Effect:</b><.>Ethan production *2
+		desc:Kind of like Ethan's Wario, Wethan Wilver-Wiskin.<//><b>Effect:</b><.>Ethan production *2
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building1/Jake.png
 		cost:100 jokes
 		passive:multiply yield of ethan by 2
