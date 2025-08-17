@@ -219,7 +219,7 @@ Buildings
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Isaac.png
 		cost:45 jokes
 		on tick:yield 1 joke
-		req:100 jokes:earned
+		req:150 jokes:earned
 		cost increase:112%
 
 	*leo|leos
@@ -228,7 +228,7 @@ Buildings
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Leo.png
 		cost:135 jokes
 		on tick:yield 3 joke
-		req:400 jokes:earned
+		req:600 jokes:earned
 		cost increase:114%
 
 	*tommy|tommys
@@ -237,7 +237,7 @@ Buildings
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Tommy.png
 		cost:405 jokes
 		on tick:yield 8 joke
-		req:1600 jokes:earned
+		req:2400 jokes:earned
 		cost increase:116%
 	
 	*alessandro|alessandros
@@ -246,7 +246,7 @@ Buildings
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Alessandro.png
 		cost:1215 jokes
 		on tick:yield 20 jokes
-		req:6400 jokes:earned
+		req:9600 jokes:earned
 		cost increase:118%
 	
 	*abby|abbys
@@ -255,7 +255,7 @@ Buildings
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Abby.png
 		cost:3645 jokes
 		on tick:yield 50 jokes
-		req:25600 jokes:earned
+		req:38400 jokes:earned
 		cost increase:120%
 	
 	*johnny|johnnys
@@ -264,7 +264,7 @@ Buildings
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Johnny.png
 		cost:10930 jokes
 		on tick:yield 120 jokes
-		req:102400 jokes:earned
+		req:153600 jokes:earned
 		cost increase:122%
 		
 Upgrades
