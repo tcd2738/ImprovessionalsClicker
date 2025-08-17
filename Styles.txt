@@ -7,6 +7,11 @@
 	background-size: 40px;
 }
 
+.noImageBorder
+{
+	background: transparent !important;
+}
+
 /* Default Styles - Big Blue Theme */
 
 .box
