@@ -181,7 +181,7 @@
 	box-shadow: none !important;
 }
 
-.upgradeBox
+.upgradeBox .box-things
 {
 	width: fit-content;
 	overflow: auto;
