@@ -767,42 +767,42 @@ Achievements
 		class:noImageBorder
 		icon class:achievIcon
 
-	*toastAchiev1
+	*toastAchiev3
 		name:Toast (3 of 8)
 		req:3 toastTheCat
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Achievements/Toast3.png
 		class:noImageBorder
 		icon class:achievIcon
 
-	*toastAchiev1
+	*toastAchiev4
 		name:Toast (4 of 8)
 		req:4 toastTheCat
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Achievements/Toast4.png
 		class:noImageBorder
 		icon class:achievIcon
 
-	*toastAchiev1
+	*toastAchiev5
 		name:Toast (5 of 8)
 		req:5 toastTheCat
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Achievements/Toast5.png
 		class:noImageBorder
 		icon class:achievIcon
 
-	*toastAchiev1
+	*toastAchiev6
 		name:Toast (6 of 8)
 		req:6 toastTheCat
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Achievements/Toast6.png
 		class:noImageBorder
 		icon class:achievIcon
 
-	*toastAchiev1
+	*toastAchiev7
 		name:Toast (7 of 8)
 		req:7 toastTheCat
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Achievements/Toast7.png
 		class:noImageBorder
 		icon class:achievIcon
 
-	*toastAchiev1
+	*toastAchiev8
 		name:Toast (8 of 8)
 		req: toastTheCat
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Achievements/Toast8.png
