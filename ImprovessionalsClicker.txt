@@ -213,7 +213,7 @@ Upgrades
 	*weed
 		name:Weed
 		desc:Supposedly makes you funnier.<//><b>Effect:</b><.>jokes per click *5
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Click/Onion.png
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Click/Weed.png
 		cost:1600 jokes
 		req:12500 jokes
 		icon class:shrinkIcon
@@ -614,73 +614,9 @@ Upgrades
 Achievements
 	*TEMPLATE
 		on click:anim glow
-		
-	*bunnyAchiev1
-		name:Run rabbit run
-		desc:Have <b>1</b> bunny.
-		req:1 joke
-		icon:icons[2,4] icons[0,2] icons[0,6]
-	*bunnyAchiev2
-		name:Bunniest home videos
-		desc:Have <b>1000</b> bunnies.
-		req:1000 jokes
-		icon:icons[2,4] icons[0,3] icons[0,6]
-	*bunnyAchiev3
-		name:You got buns, hun
-		desc:Have <b>1000000</b> bunnies.
-		req:10000000 jokes
-		icon:icons[2,4] icons[0,4] icons[0,6]
-		
-	*clickAchiev1
-		name:That tickles
-		desc:Click the bunny <b>10</b> times.
-		req:10 impButton clicks
-		icon:icons[2,2] icons[0,2] icons[0,6]
-	*clickAchiev2
-		name:Don't squeeze me I'll fart
-		desc:Click the bunny <b>100</b> times.
-		req:100 impButton clicks
-		icon:icons[2,2] icons[0,3] icons[0,6]
-	*clickAchiev3
-		name:You're cruising for a bruising, dude
-		desc:Click the bunny <b>2000</b> times.
-		req:2000 impButton clicks
-		icon:icons[2,2] icons[0,4] icons[0,6]
-		
-	*bunnyPsAchiev1
-		name:Be vewy vewy quiet
-		desc:Produce <b>10</b> bunnies per second.
-		req:10 jokes per second
-		icon:icons[2,3] icons[0,2] icons[0,6]
-	*bunnyPsAchiev2
-		name:Hop and a skip
-		desc:Produce <b>1000</b> bunnies per second.
-		req:1000 jokes per second
-		icon:icons[2,3] icons[0,3] icons[0,6]
-	*bunnyPsAchiev3
-		name:Go forth and multiply
-		desc:Produce <b>100000</b> bunnies per second.
-		req:100000 jokes per second
-		icon:icons[2,3] icons[0,4] icons[0,6]
-		
-	*carrotAchiev1
-		name:Isn't it neat
-		desc:Have <b>1</b> golden carrot.
-		req:1 zinger
-		icon:icons[0,1] icons[0,2]
-	*carrotAchiev2
-		name:All that glitters
-		desc:Have <b>100</b> golden carrots.
-		req:100 zingers
-		icon:icons[0,1] icons[0,3]
-	*carrotAchiev3
-		name:Zero nutritional value
-		desc:Have <b>1000</b> golden carrots.
-		req:1000 zingers
-		icon:icons[0,1] icons[0,4]
 
-	*toastAchiev
+	*toastAchiev1
 		name:Toast!
 		desc: Uhh, papa, I think I'm an achievement…
 		req:1 toastTheCat
-		icon:icons[0,1]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Toast.png
