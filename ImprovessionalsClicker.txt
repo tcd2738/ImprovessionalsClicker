@@ -112,8 +112,12 @@ Buttons
 			$percentOfJps=(0.01*jokes:ps)
 	
 			if (have ucbManual) $totalJokes=($totalJokes+1)
+			if (have twitterDotCom) $totalJokes=($totalJokes+3)
+			if (have onionSubscription) $totalJokes=($totalJokes+9)
+			if (have weed) $totalJokes=($totalJokes+420)
+			end
 
-			if (have obsession) 
+			if (have obsession)
 				$totalJokes=($totalJokes+($percentOfJps*6))
 			else if (have prop)
 				$totalJokes=($totalJokes+($percentOfJps*5))
