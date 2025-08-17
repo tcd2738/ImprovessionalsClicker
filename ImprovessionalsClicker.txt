@@ -27,11 +27,49 @@ Layout
 			header:Buildings
 			tooltip origin:left
 		*upgrades
-			contains:Upgrades
+			contains:clickUpgrades, zingerUpgrades, ethanUpgrades, isaacUpgrades, leoUpgrades, tommyUpgrades, alessandroUpgrades, abbyUpgrades, johnnyUpgrades, combinerUpgrades, vapapoUpgrades, focusUpgrades
 			header:Upgrades
 			costs:hide
 			names:hide
-		
+
+	//upgrade boxes
+	*clickUpgrades
+		contains:tag:clickUpgrades
+		header:Click Upgrades
+	*zingerUpgrades
+		contains:tag:zingerUpgrades
+		header:Zinger Upgrades
+	*ethanUpgrades
+		contains:tag:ethanUpgrades
+		header:Ethan Upgrades
+	*isaacUpgrades
+		contains:tag:isaacUpgrades
+		header:Isaac Upgrades
+	*leoUpgrades
+		contains:tag:leoUpgrades
+		header:Leo Upgrades
+	*tommyUpgrades
+		contains:tag:tommyUpgrades
+		header:Tommy Upgrades
+	*alessandroUpgrades
+		contains:tag:alessandroUpgrades
+		header:Alessandro Upgrades
+	*abbyUpgrades
+		contains:tag:abbyUpgrades
+		header:Abby Upgrades
+	*johnnyUpgrades
+		contains:tag:johnnyUpgrades
+		header:Johnny Upgrades
+	*combinerUpgrades
+		contains:tag:combinerUpgrades
+		header:Combiner Upgrades
+	*vapapoUpgrades
+		contains:tag:vapapoUpgrades
+		header:VAPAPO Upgrades
+	*focusUpgrades
+		contains:tag:focusUpgrades
+		header:Focus Management Upgrades
+	
 Buttons
 	*impButton
 		name:Make a joke!
@@ -210,6 +248,7 @@ Upgrades
 		cost:100 jokes
 		req:100 jokes:earned
 		icon class:shrinkIcon
+		tag:clickUpgrades
 
 	*twitterDotCom
 		name:twitter.com
@@ -218,6 +257,7 @@ Upgrades
 		cost:500 jokes
 		req:500 jokes:earned
 		icon class:shrinkIcon
+		tag:clickUpgrades
 
 	*onionSubscription
 		name:A Print Subscription to The Onion
@@ -226,6 +266,7 @@ Upgrades
 		cost:900 jokes
 		req:2500 jokes:earned
 		icon class:shrinkIcon
+		tag:clickUpgrades
 
 	*weed
 		name:Weed
@@ -234,6 +275,7 @@ Upgrades
 		cost:1600 jokes
 		req:12500 jokes
 		icon class:shrinkIcon
+		tag:clickUpgrades
 
 	//vapapo upgrades
 
