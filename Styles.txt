@@ -199,3 +199,10 @@
 	background-position: center !important;
 	background-size: 80px;
 }
+
+@media (min-width: 1700px) {
+	.building {
+		width: 300px;
+		margin-left: auto;
+	}
+}

@@ -32,6 +32,7 @@ Layout
 			names:hide
 
 	//upgrade boxes
+
 	*clickUpgrades
 		contains:tag:clickUpgrades
 		header:Click Upgrades
