@@ -28,7 +28,6 @@ Layout
 			tooltip origin:left
 		*upgrades
 			contains:clickUpgrades, zingerUpgrades, ethanUpgrades, isaacUpgrades, leoUpgrades, tommyUpgrades, alessandroUpgrades, abbyUpgrades, johnnyUpgrades, combinerUpgrades, vapapoUpgrades, focusUpgrades
-			header:Upgrades
 			costs:hide
 			names:hide
 
@@ -36,39 +35,63 @@ Layout
 	*clickUpgrades
 		contains:tag:clickUpgrades
 		header:Click Upgrades
+		costs:hide
+		names:hide
 	*zingerUpgrades
 		contains:tag:zingerUpgrades
 		header:Zinger Upgrades
+		costs:hide
+		names:hide
 	*ethanUpgrades
 		contains:tag:ethanUpgrades
 		header:Ethan Upgrades
+		costs:hide
+		names:hide
 	*isaacUpgrades
 		contains:tag:isaacUpgrades
 		header:Isaac Upgrades
+		costs:hide
+		names:hide
 	*leoUpgrades
 		contains:tag:leoUpgrades
 		header:Leo Upgrades
+		costs:hide
+		names:hide
 	*tommyUpgrades
 		contains:tag:tommyUpgrades
 		header:Tommy Upgrades
+		costs:hide
+		names:hide
 	*alessandroUpgrades
 		contains:tag:alessandroUpgrades
 		header:Alessandro Upgrades
+		costs:hide
+		names:hide
 	*abbyUpgrades
 		contains:tag:abbyUpgrades
 		header:Abby Upgrades
+		costs:hide
+		names:hide
 	*johnnyUpgrades
 		contains:tag:johnnyUpgrades
 		header:Johnny Upgrades
+		costs:hide
+		names:hide
 	*combinerUpgrades
 		contains:tag:combinerUpgrades
 		header:Combiner Upgrades
+		costs:hide
+		names:hide
 	*vapapoUpgrades
 		contains:tag:vapapoUpgrades
 		header:VAPAPO Upgrades
+		costs:hide
+		names:hide
 	*focusUpgrades
 		contains:tag:focusUpgrades
 		header:Focus Management Upgrades
+		costs:hide
+		names:hide
 	
 Buttons
 	*impButton
@@ -285,7 +308,8 @@ Upgrades
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/VAPAPO/V.png
 		cost:5000 jokes
 		req:have vapapo
-		icon class:shrinkIcon 
+		icon class:shrinkIcon
+		tag:vapapoUpgrades
 
 	*attitude
 		name:Attitude
@@ -294,6 +318,7 @@ Upgrades
 		cost:50000 jokes
 		req:have voice
 		icon class:shrinkIcon
+		tag:vapapoUpgrades
 
 	*posture
 		name:Posture
@@ -302,6 +327,7 @@ Upgrades
 		cost:500000 jokes
 		req:have attitude
 		icon class:shrinkIcon
+		tag:vapapoUpgrades
 
 	*animal
 		name:Animal
@@ -310,6 +336,7 @@ Upgrades
 		cost:5000000 jokes
 		req:have posture
 		icon class:shrinkIcon
+		tag:vapapoUpgrades
 
 	*prop
 		name:Prop
@@ -318,6 +345,7 @@ Upgrades
 		cost:50000000 jokes
 		req:have animal
 		icon class:shrinkIcon
+		tag:vapapoUpgrades
 
 	*obsession
 		name:Obsession
@@ -325,7 +353,8 @@ Upgrades
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/VAPAPO/O.png
 		cost:500000000 jokes
 		req:have prop
-		icon class:shrinkIcon		
+		icon class:shrinkIcon
+		tag:vapapoUpgrades	
 	
 	//building upgrades
 
@@ -337,6 +366,7 @@ Upgrades
 		passive:multiply yield of ethan by 2
 		req:ethans>=10
 		icon class:shrinkIcon
+		tag:ethanUpgrades
 
 	*tripToTheHospital
 		name:A Trip to the Hospital
@@ -346,6 +376,7 @@ Upgrades
 		passive:multiply yield of ethan by 2
 		req:ethans>=20
 		icon class:shrinkIcon
+		tag:ethanUpgrades
 
 	*frisbee
 		name:A Frisbee
@@ -355,6 +386,7 @@ Upgrades
 		passive:multiply yield of ethan by 2
 		req:ethans>=30
 		icon class:shrinkIcon
+		tag:ethanUpgrades
 
 	*mikayla
 		name:Mikayla
@@ -364,6 +396,7 @@ Upgrades
 		passive:multiply yield of isaac by 2
 		req:isaacs>=10
 		icon class:shrinkIcon
+		tag:isaacUpgrades
 
 	*newJersey
 		name:New Jersey
@@ -373,6 +406,7 @@ Upgrades
 		passive:multiply yield of isaac by 2
 		req:isaacs>=20
 		icon class:shrinkIcon
+		tag:isaacUpgrades
 
 	*speedrunningStrategy
 		name:A Speedrunning Strategy
@@ -382,6 +416,7 @@ Upgrades
 		passive:multiply yield of isaac by 2
 		req:isaacs>=30
 		icon class:shrinkIcon
+		tag:isaacUpgrades
 
 	*dakota
 		name:Dakota
@@ -391,6 +426,7 @@ Upgrades
 		passive:multiply yield of leo by 2
 		req:leos>=10
 		icon class:shrinkIcon
+		tag:leoUpgrades
 
 	*target
 		name:Target
@@ -400,6 +436,7 @@ Upgrades
 		passive:multiply yield of leo by 2
 		req:leos>=20
 		icon class:shrinkIcon
+		tag:leoUpgrades
 
 	*beeHole
 		name:A Bee Hole
@@ -409,6 +446,7 @@ Upgrades
 		passive:multiply yield of leo by 2
 		req:leos>=30
 		icon class:shrinkIcon
+		tag:leoUpgrades
 
 	*mackenzie
 		name:Mackenzie
@@ -418,6 +456,7 @@ Upgrades
 		passive:multiply yield of tommy by 2
 		req:tommys>=10
 		icon class:shrinkIcon
+		tag:tommyUpgrades
 
 	*marriage
 		name:Marriage
@@ -427,6 +466,7 @@ Upgrades
 		passive:multiply yield of tommy by 2
 		req:tommys>=20
 		icon class:shrinkIcon
+		tag:tommyUpgrades
 
 	*barOfSoap
 		name:A Bar of Soap
@@ -436,6 +476,7 @@ Upgrades
 		passive:multiply yield of tommy by 2
 		req:tommys>=30
 		icon class:shrinkIcon
+		tag:tommyUpgrades
 
 	*sabrina
 		name:Sabrina
@@ -445,6 +486,7 @@ Upgrades
 		passive:multiply yield of alessandro by 2
 		req:alessandros>=10
 		icon class:shrinkIcon
+		tag:alessandroUpgrades
 
 	*sharedCar
 		name:Shared Car
@@ -454,6 +496,7 @@ Upgrades
 		passive:multiply yield of alessandro by 2
 		req:alessandros>=20
 		icon class:shrinkIcon
+		tag:alessandroUpgrades
 
 	*stupidLittleHat
 		name:A Stupid Little Hat
@@ -463,6 +506,7 @@ Upgrades
 		passive:multiply yield of alessandro by 2
 		req:alessandros>=30
 		icon class:shrinkIcon
+		tag:alessandroUpgrades
 		
 	*eli
 		name:Eli
@@ -472,6 +516,7 @@ Upgrades
 		passive:multiply yield of abby by 2
 		req:abbys>=10
 		icon class:shrinkIcon
+		tag:abbyUpgrades
 
 	*disneylandTrip
 		name:Disneyland Trip
@@ -481,6 +526,7 @@ Upgrades
 		passive:multiply yield of abby by 2
 		req:abbys>=20
 		icon class:shrinkIcon
+		tag:abbyUpgrades
 
 	*mashSideblog
 		name:A M*A*S*H Sideblog
@@ -490,6 +536,7 @@ Upgrades
 		passive:multiply yield of abby by 2
 		req:abbys>=30
 		icon class:shrinkIcon
+		tag:abbyUpgrades
 
 	*eleanor
 		name:Eleanor
@@ -499,6 +546,7 @@ Upgrades
 		passive:multiply yield of johnny by 2
 		req:johnnys>=10
 		icon class:shrinkIcon
+		tag:johnnyUpgrades
 
 	*syracuse
 		name:Syracuse
@@ -508,6 +556,7 @@ Upgrades
 		passive:multiply yield of johnny by 2
 		req:johnnys>=20
 		icon class:shrinkIcon
+		tag:johnnyUpgrades
 
 	*glassOfMilk
 		name:A Glass of Milk
@@ -517,6 +566,7 @@ Upgrades
 		passive:multiply yield of johnny by 2
 		req:johnnys>=30
 		icon class:shrinkIcon
+		tag:johnnyUpgrades
 
 	//combiner upgrades
 
@@ -529,6 +579,7 @@ Upgrades
 		passive:multiply yield of isaacs by 1.1
 		req:(ethans>=20 and isaacs>=10)
 		icon class:shrinkIcon
+		tag:combinerUpgrades
 
 	*logFlumeBuddies
 		name:Log Flume Buddies
@@ -539,6 +590,7 @@ Upgrades
 		passive:multiply yield of leos by 1.1
 		req:(isaacs>=20 and leos>=10)
 		icon class:shrinkIcon
+		tag:combinerUpgrades
 	
 	*movieClub
 		name:Movie Club
@@ -550,6 +602,7 @@ Upgrades
 		passive:multiply yield of abbys by 1.1
 		req:(tommys>=20 and alessandros>=10 and abbys>=5)
 		icon class:shrinkIcon
+		tag:combinerUpgrades
 
 	*classOf2022
 		name:Class of 2022
@@ -561,6 +614,7 @@ Upgrades
 		passive:multiply yield of alessandros by 1.22
 		req:(leos>=22 and tommys>=22 and alessandros>=22)
 		icon class:shrinkIcon
+		tag:combinerUpgrades
 
 	*dcTrip
 		name:DC Trip
@@ -572,6 +626,7 @@ Upgrades
 		passive:multiply yield of abbys by 1.1
 		req:(isaacs>=20 and leos>=20 and tommys>=20 and alessandros>=20 and abbys>=20)
 		icon class:shrinkIcon
+		tag:combinerUpgrades
 
 	//focus upgrades
 	*austin
@@ -582,6 +637,7 @@ Upgrades
 		on tick:yield (0.02*jokes:ps) jokes
 		req:have focusTheater and 10000000 jokes:earned
 		icon class:shrinkIcon
+		tag:focusUpgrades
 
 	*bj
 		name:BJ
@@ -591,6 +647,7 @@ Upgrades
 		on tick:yield (0.04*jokes:ps) jokes
 		req:have focusTheater and 20000000 jokes:earned
 		icon class:shrinkIcon
+		tag:focusUpgrades
 
 	*jft
 		name:JFT
@@ -600,6 +657,7 @@ Upgrades
 		on tick:yield (0.06*jokes:ps) jokes
 		req:have focusTheater and 40000000 jokes:earned
 		icon class:shrinkIcon
+		tag:focusUpgrades
 
 	*keith
 		name:Keith
@@ -609,6 +667,7 @@ Upgrades
 		on tick:yield (0.08*jokes:ps) jokes
 		req:have focusTheater and 80000000 jokes:earned
 		icon class:shrinkIcon
+		tag:focusUpgrades
 
 	*roger
 		name:Roger
@@ -618,6 +677,7 @@ Upgrades
 		on tick:yield (0.10*jokes:ps) jokes
 		req:have focusTheater and 160000000 jokes:earned
 		icon class:shrinkIcon
+		tag:focusUpgrades
 		
 	//zinger upgrades
 	
@@ -628,6 +688,7 @@ Upgrades
 		cost:1 zinger
 		req:1 zinger:earned
 		icon class:shrinkIcon
+		tag:zingerUpgrades
 		
 	*eBoard
 		name:E-board
@@ -637,6 +698,7 @@ Upgrades
 		cost:3 zingers
 		req:2 zinger:earned
 		icon class:shrinkIcon
+		tag:zingerUpgrades
 
 	*vapapo
 		name:VAPAPO
@@ -645,6 +707,7 @@ Upgrades
 		cost:5 zingers
 		req:3 zinger:earned
 		icon class:shrinkIcon
+		tag:zingerUpgrades
 
 	*customCahDeck
 		name:Custom Cards Against Humanity Deck
@@ -653,6 +716,7 @@ Upgrades
 		cost:8 zinger
 		req:5 zingers:earned
 		icon class:shrinkIcon
+		tag:zingerUpgrades
 
 	*webbAuditorium
 		name:Webb Auditorium
@@ -661,6 +725,7 @@ Upgrades
 		cost:12 zingers
 		req:8 zinger:earned
 		icon class:shrinkIcon
+		tag:zingerUpgrades
 
 	*focusTheater
 		name:The Focus Theater
@@ -669,6 +734,7 @@ Upgrades
 		cost:18 zingers
 		req:12 zinger:earned
 		icon class:shrinkIcon
+		tag:zingerUpgrades
 		
 Achievements
 	*TEMPLATE
