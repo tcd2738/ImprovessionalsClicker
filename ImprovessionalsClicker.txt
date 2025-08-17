@@ -565,7 +565,7 @@ Upgrades
 	*quoteJar
 		name:Quote Jar
 		desc:Your friends love it when you read through the quote jar.<//><b>Effect:</b><.>1% chance of gaining a zinger per joke
-		icon:icons[2,5]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/QuoteJar.png
 		cost:1 zinger
 		req:1 zinger:earned
 		icon class:shrinkIcon
@@ -573,7 +573,7 @@ Upgrades
 	*eBoard
 		name:E-board
 		desc:A bunch of people that will sit around and complain about you.<//><b>Effect:</b><.>Quacklemore appears 20% more often
-		icon:icons[2,6]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/EBoard.png
 		passive:multiply frequency of quacklemore by 0.80
 		cost:3 zingers
 		req:2 zinger:earned
@@ -582,7 +582,7 @@ Upgrades
 	*vapapo
 		name:VAPAPO
 		desc:Isn't the point of an acronym that is stands for something?<//><b>Effect:</b><.>unlocks VAPAPO click boosts
-		icon:icons[2,6]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/VAPAPO.png
 		cost:5 zingers
 		req:3 zinger:earned
 		icon class:shrinkIcon
@@ -590,7 +590,7 @@ Upgrades
 	*customCahDeck
 		name:Custom Cards Against Humanity Deck
 		desc:A bunch of jokes and prompts that were funny five years ago.<//><b>Effect:</b><.>2% chance of gaining a zinger per joke
-		icon:icons[2,5]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/CahDeck.png
 		cost:8 zingers
 		req:5 zingers:earned
 		icon class:shrinkIcon
@@ -598,7 +598,7 @@ Upgrades
 	*webbAuditorium
 		name:Webb Auditorium
 		desc:Despite what everyone else says, this is a much better space than Ingle Auditorium.<//><b>Effect:</b><.>Quacklemore drops twice as many zingers
-		icon:icons[2,6]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/WebbAuditorium.png
 		cost:12 zingers
 		req:8 zinger:earned
 		icon class:shrinkIcon
@@ -606,7 +606,7 @@ Upgrades
 	*focusTheater
 		name:The Focus Theater
 		desc:Take a workshop. You'll need the experience in the coming days.<//><b>Effect:</b><.>unlocks management production boosts
-		icon:icons[2,6]
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/FocusTheater.png
 		cost:18 zingers
 		req:12 zinger:earned
 		icon class:shrinkIcon
