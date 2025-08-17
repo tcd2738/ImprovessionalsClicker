@@ -620,3 +620,4 @@ Achievements
 		desc: Uhh, papa, I think I'm an achievement…
 		req:1 toastTheCat
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Toast1.png
+		class: noImageBorder
