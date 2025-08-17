@@ -517,8 +517,8 @@ Upgrades
 	//focus upgrades
 	*austin
 		name:Austin
-		desc:<//><b>Effect:</b><.>joke production multiplier +2%
-		icon:icons[2,5]
+		desc:Tried to stop the creation of WIP and failed.<//><b>Effect:</b><.>joke production multiplier +2%
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/FocusTheater/Austin.png
 		cost:10000 jokes
 		on tick:yield (0.02*jokes:ps) jokes
 		req:have focusTheater and 10000000 jokes:earned
@@ -526,8 +526,8 @@ Upgrades
 
 	*bj
 		name:BJ
-		desc:<//><b>Effect:</b><.>joke production multiplier +4%
-		icon:icons[2,5]
+		desc:Is extremely religious.<//><b>Effect:</b><.>joke production multiplier +4%
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/FocusTheater/BJ.png
 		cost:100000 jokes
 		on tick:yield (0.04*jokes:ps) jokes
 		req:have focusTheater and 20000000 jokes:earned
@@ -535,8 +535,8 @@ Upgrades
 
 	*jft
 		name:JFT
-		desc:<//><b>Effect:</b><.>joke production multiplier +6%
-		icon:icons[2,5]
+		desc:Dated Isaac's mom.<//><b>Effect:</b><.>joke production multiplier +6%
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/FocusTheater/JFT.png
 		cost:1000000 jokes
 		on tick:yield (0.06*jokes:ps) jokes
 		req:have focusTheater and 40000000 jokes:earned
@@ -544,8 +544,8 @@ Upgrades
 
 	*keith
 		name:Keith
-		desc:<//><b>Effect:</b><.>joke production multiplier +8%
-		icon:icons[2,5]
+		desc:Works as a mailman.<//><b>Effect:</b><.>joke production multiplier +8%
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/FocusTheater/Keith.png
 		cost:10000000 jokes
 		on tick:yield (0.08*jokes:ps) jokes
 		req:have focusTheater and 80000000 jokes:earned
@@ -553,8 +553,8 @@ Upgrades
 
 	*roger
 		name:Roger
-		desc:<//><b>Effect:</b><.>joke production multiplier +10%
-		icon:icons[2,5]
+		desc:Does not know how to use a microwave.<//><b>Effect:</b><.>joke production multiplier +10%
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/FocusTheater/Roger.png
 		cost:100000000 jokes
 		on tick:yield (0.10*jokes:ps) jokes
 		req:have focusTheater and 160000000 jokes:earned
@@ -590,8 +590,8 @@ Upgrades
 	*customCahDeck
 		name:Custom Cards Against Humanity Deck
 		desc:A bunch of jokes and prompts that were funny five years ago.<//><b>Effect:</b><.>2% chance of gaining a zinger per joke
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/CahDeck.png
-		cost:8 zingers
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/CustomDeck.png
+		cost:8 zinger
 		req:5 zingers:earned
 		icon class:shrinkIcon
 
