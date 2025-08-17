@@ -758,3 +758,4 @@ Achievements
 		req:1 toastTheCat
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Toast1.png
 		class:noImageBorder
+		iconClass:achievIcon

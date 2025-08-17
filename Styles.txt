@@ -192,3 +192,9 @@
 	width: 64px;
 	height: 64px;
 }
+
+.achievIcon
+{
+	width: 64px;
+	height: 64px;
+}
