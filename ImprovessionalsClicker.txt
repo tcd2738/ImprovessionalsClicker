@@ -29,36 +29,33 @@ Buttons
 		end
 		on click:
 			$totalJokes=1
-			if (have voice) 
-				$totalJokes+(0.01*jokes:ps)
-			end
-			if (have attitude)
-				$totalJokes+(0.01*jokes:ps)
-			end
-			if (have posture)
-				$totalJokes+(0.01*jokes:ps)
-			end
-			if (have animal)
-				$totalJokes+(0.01*jokes:ps)
-			end
-			if (have prop)
-				$totalJokes+(0.01*jokes:ps)
-			end
-			if (have obsession)
-				$totalJokes+(0.01*jokes:ps)
+			$percentOfJps=(0.01*jokes:ps)
+
+			if (have obsession) 
+				$totalJokes=($totalJokes+($percentOfJps*6))
+			else if (have prop)
+				$totalJokes=($totalJokes+($percentOfJps*5))
+			else if (have animal)
+				$totalJokes=($totalJokes+($percentOfJps*4))
+			else if (have posture)
+				$totalJokes=($totalJokes+($percentOfJps*3))
+			else if (have attitude)
+				$totalJokes=($totalJokes+($percentOfJps*2))
+			else if (have voice)
+				$totalJokes=($totalJokes+$percentOfJps)
 			end
 
 			if (have weed)
-				yield ($totalJokes*5) jokes
+				$totalJokes=($totalJokes*5)
 			else if (have onionSubscription)
-				yield ($totalJokes*4) jokes			
+				$totalJokes=($totalJokes*4)			
 			else if (have twitterDotCom)
-				yield ($totalJokes*3) jokes	
+				$totalJokes=($totalJokes*3)	
 			else if (have ucbManual)
-				yield ($totalJokes*2) jokes
-			else
-				yield $totalJokes jokes	
+				$totalJokes=($totalJokes*2)
 			end
+
+			yield $totalJokes jokes
 		end
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/ImprovessionalsLogo.png
 		no text
