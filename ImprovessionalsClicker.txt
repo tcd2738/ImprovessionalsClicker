@@ -223,7 +223,7 @@ Upgrades
 	*voice
 		name:Voice
 		desc:You can do a German accent.<//><b>Effect:</b><.>clicks gain 1% of your jokes per second
-		icon:
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/VAPAPO/V.png
 		cost:5000 jokes
 		req:have vapapo
 		icon class:shrinkIcon 
@@ -231,7 +231,7 @@ Upgrades
 	*attitude
 		name:Attitude
 		desc:You can be a meanie.<//><b>Effect:</b><.>clicks gain 1% of your jokes per second
-		icon:
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/VAPAPO/A.png
 		cost:50000 jokes
 		req:have voice
 		icon class:shrinkIcon
@@ -239,7 +239,7 @@ Upgrades
 	*posture
 		name:Posture
 		desc:You can bend over like on old man with a walker.<//><b>Effect:</b><.>clicks gain 1% of your jokes per second
-		icon:
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/VAPAPO/P.png
 		cost:500000 jokes
 		req:have attitude
 		icon class:shrinkIcon
@@ -247,7 +247,7 @@ Upgrades
 	*animal
 		name:Animal
 		desc:You can be mousey like a mouse.<//><b>Effect:</b><.>clicks gain 1% of your jokes per second
-		icon:
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/VAPAPO/A.png
 		cost:5000000 jokes
 		req:have posture
 		icon class:shrinkIcon
@@ -255,7 +255,7 @@ Upgrades
 	*prop
 		name:Prop
 		desc:You can carry around two cacti.<//><b>Effect:</b><.>clicks gain 1% of your jokes per second
-		icon:
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/VAPAPO/P.png
 		cost:50000000 jokes
 		req:have animal
 		icon class:shrinkIcon
@@ -263,7 +263,7 @@ Upgrades
 	*obsession
 		name:Obsession
 		desc:You can spout as many conspiracy theories as you want.<//><b>Effect:</b><.>clicks gain 1% of your jokes per second
-		icon:
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/VAPAPO/O.png
 		cost:500000000 jokes
 		req:have prop
 		icon class:shrinkIcon		
