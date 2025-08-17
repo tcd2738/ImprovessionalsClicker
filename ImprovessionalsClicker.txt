@@ -174,7 +174,7 @@ Buildings
 	*johnny|johnnys
 		name:Johnny|Johnnys
 		desc:Loves doggos, puppers, and woofers.<//><b>Effect:</b><.>Produces 120 jokes per second.
-		icon:
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Abby.png
 		cost:10930 jokes
 		on tick:yield 120 jokes
 		req:102400 jokes:earned
@@ -430,6 +430,33 @@ Upgrades
 		cost:118670 jokes
 		passive:multiply yield of abby by 2
 		req:abbys>=30
+		icon class:shrinkIcon
+
+	*eleanor
+		name:Eleanor
+		desc:Is a vessel for ketchup.<//><b>Effect:</b><.>Johnny production *2
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building1/Eli.png
+		cost:24225 jokes
+		passive:multiply yield of johnny by 2
+		req:johnnys>=10
+		icon class:shrinkIcon
+
+	*syracuse
+		name:Syracuse
+		desc:No one has ever said anything nice about it.<//><b>Effect:</b><.>Johnny production *2
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building2/Disneyland.png
+		cost:84790 jokes
+		passive:multiply yield of johnny by 2
+		req:johnnys>=20
+		icon class:shrinkIcon
+
+	*glassOfMilk
+		name:A Glass of Milk
+		desc:Good for growing boys.<//><b>Effect:</b><.>Johnny production *2
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Building3/Blog.png
+		cost:296765 jokes
+		passive:multiply yield of johnny by 2
+		req:johnnys>=30
 		icon class:shrinkIcon
 
 	//combiner upgrades
