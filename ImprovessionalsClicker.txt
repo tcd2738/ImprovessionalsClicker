@@ -492,7 +492,7 @@ Upgrades
 		desc:<//><b>Effect:</b><.>joke production multiplier +4%
 		icon:icons[2,5]
 		cost:100000 jokes
-		req:have focusTheater and 10000000 jokes:earned
+		req:have focusTheater and 2000000 jokes:earned
 		icon class:shrinkIcon
 
 	*jft
@@ -500,7 +500,7 @@ Upgrades
 		desc:<//><b>Effect:</b><.>joke production multiplier +6%
 		icon:icons[2,5]
 		cost:100000 jokes
-		req:have focusTheater and 100000000 jokes:earned
+		req:have focusTheater and 4000000 jokes:earned
 		icon class:shrinkIcon
 
 	*keith
@@ -508,7 +508,7 @@ Upgrades
 		desc:<//><b>Effect:</b><.>joke production multiplier +8%
 		icon:icons[2,5]
 		cost:1000000 jokes
-		req:have focusTheater and 1000000000 jokes:earned
+		req:have focusTheater and 8000000 jokes:earned
 		icon class:shrinkIcon
 
 	*roger
@@ -516,7 +516,7 @@ Upgrades
 		desc:<//><b>Effect:</b><.>joke production multiplier +10%
 		icon:icons[2,5]
 		cost:1000000 jokes
-		req:have focusTheater and 10000000000 jokes:earned
+		req:have focusTheater and 160000000 jokes:earned
 		icon class:shrinkIcon
 		
 	//zinger upgrades
