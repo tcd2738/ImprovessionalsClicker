@@ -189,13 +189,13 @@
 
 .achiev
 {
-	width: 64px;
-	height: 64px;
+	width: 100px;
+	height: 100px;
 }
 
 .achievIcon
 {
 	background-repeat: no-repeat;
 	background-position: center !important;
-	background-size: 64px;
+	background-size: 80px;
 }
