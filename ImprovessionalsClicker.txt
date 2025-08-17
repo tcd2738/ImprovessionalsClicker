@@ -26,9 +26,9 @@ Layout
 			contains:BulkDisplay, Buildings
 			header:Buildings
 			tooltip origin:left
-			ps:show
 		*upgrades
 			contains:clickUpgrades, zingerUpgrades, ethanUpgrades, isaacUpgrades, leoUpgrades, tommyUpgrades, alessandroUpgrades, abbyUpgrades, johnnyUpgrades, combinerUpgrades, vapapoUpgrades, focusUpgrades
+			header:Upgrades
 			costs:hide
 			names:hide
 
@@ -61,43 +61,36 @@ Layout
 		class:upgradeBox
 	*tommyUpgrades
 		contains:tag:tommyUpgrades
-		header:Tommy Upgrades
 		costs:hide
 		names:hide
 		class:upgradeBox
 	*alessandroUpgrades
 		contains:tag:alessandroUpgrades
-		header:Alessandro Upgrades
 		costs:hide
 		names:hide
 		class:upgradeBox
 	*abbyUpgrades
 		contains:tag:abbyUpgrades
-		header:Abby Upgrades
 		costs:hide
 		names:hide
 		class:upgradeBox
 	*johnnyUpgrades
 		contains:tag:johnnyUpgrades
-		header:Johnny Upgrades
 		costs:hide
 		names:hide
 		class:upgradeBox
 	*combinerUpgrades
 		contains:tag:combinerUpgrades
-		header:Combiner Upgrades
 		costs:hide
 		names:hide
 		class:upgradeBox
 	*vapapoUpgrades
 		contains:tag:vapapoUpgrades
-		header:VAPAPO Upgrades
 		costs:hide
 		names:hide
 		class:upgradeBox
 	*focusUpgrades
 		contains:tag:focusUpgrades
-		header:Focus Management Upgrades
 		costs:hide
 		names:hide
 		class:upgradeBox
@@ -184,6 +177,7 @@ Shinies
 		on click:
 			$jokeBoost=1
 			$zingerBoost=1
+			if (have discordServer) $jokeBoost=2
 			if (have webbAuditorium) $zingerBoost=2
 
 			if (chance(5%))
