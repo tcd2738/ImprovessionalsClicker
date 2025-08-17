@@ -520,6 +520,7 @@ Upgrades
 		desc:<//><b>Effect:</b><.>joke production multiplier +2%
 		icon:icons[2,5]
 		cost:10000 jokes
+		on tick:yield (0.02*jokes:ps) jokes
 		req:have focusTheater and 10000000 jokes:earned
 		icon class:shrinkIcon
 
@@ -528,6 +529,7 @@ Upgrades
 		desc:<//><b>Effect:</b><.>joke production multiplier +4%
 		icon:icons[2,5]
 		cost:100000 jokes
+		on tick:yield (0.04*jokes:ps) jokes
 		req:have focusTheater and 20000000 jokes:earned
 		icon class:shrinkIcon
 
@@ -536,6 +538,7 @@ Upgrades
 		desc:<//><b>Effect:</b><.>joke production multiplier +6%
 		icon:icons[2,5]
 		cost:1000000 jokes
+		on tick:yield (0.06*jokes:ps) jokes
 		req:have focusTheater and 40000000 jokes:earned
 		icon class:shrinkIcon
 
@@ -544,6 +547,7 @@ Upgrades
 		desc:<//><b>Effect:</b><.>joke production multiplier +8%
 		icon:icons[2,5]
 		cost:10000000 jokes
+		on tick:yield (0.08*jokes:ps) jokes
 		req:have focusTheater and 80000000 jokes:earned
 		icon class:shrinkIcon
 
@@ -552,6 +556,7 @@ Upgrades
 		desc:<//><b>Effect:</b><.>joke production multiplier +10%
 		icon:icons[2,5]
 		cost:100000000 jokes
+		on tick:yield (0.10*jokes:ps) jokes
 		req:have focusTheater and 160000000 jokes:earned
 		icon class:shrinkIcon
 		
