@@ -189,17 +189,17 @@
 
 .achiev
 {
-	width: 100px;
-	height: 100px;
+	width: 64px;
+	height: 64px;
 }
 
 .achievIcon
 {
 	background-repeat: no-repeat;
 	background-position: center !important;
-	width: 100px;
-	height: 100px;
-	background-size: 100px;
+	width: 64px;
+	height: 64px;
+	background-size: 64px;
 }
 
 @media (min-width: 1700px) {
