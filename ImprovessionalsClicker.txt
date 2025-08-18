@@ -125,10 +125,10 @@ Buttons
 				$totalJokes=($totalJokes+$percentOfJps)
 			end
 
-			if (have weed) $totalJokes=($totalJokes+1)
-			if (have onionSubscription) $totalJokes=($totalJokes+5)			
-			if (have twitterDotCom) $totalJokes=($totalJokes+20)	
-			if (have ucbManual) $totalJokes=($totalJokes+420)
+			if (have ucbManual) $totalJokes=($totalJokes+1)
+			if (have twitterDotCom) $totalJokes=($totalJokes+5)		
+			if (have onionSubscription) $totalJokes=($totalJokes+20)
+			if (have weed) $totalJokes=($totalJokes+420)
 
 			yield $totalJokes jokes
 		end
