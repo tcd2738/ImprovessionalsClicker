@@ -302,7 +302,7 @@ Upgrades
 		desc:Supposedly makes you funnier.<//><b>Effect:</b><.>jokes per click +420
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Click/Weed.png
 		cost:420000 jokes
-		req:42000 jokes
+		req:42000 jokes:earned
 		icon class:shrinkIcon
 		tag:clickUpgrades
 
@@ -749,7 +749,7 @@ Upgrades
 		desc:Isn't the point of an acronym that it stands for something?<//><b>Effect:</b><.>unlocks VAPAPO click boosts
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/VAPAPO.png
 		cost:5 zingers
-		req:3 zinger:earned
+		req:4 zinger:earned
 		icon class:shrinkIcon
 		tag:zingerUpgrades
 
@@ -758,7 +758,7 @@ Upgrades
 		desc:A bunch of jokes and prompts that were funny five years ago.<//><b>Effect:</b><.>.5% chance of gaining a zinger per joke
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/CustomDeck.png
 		cost:8 zinger
-		req:5 zingers:earned
+		req:8 zingers:earned
 		icon class:shrinkIcon
 		tag:zingerUpgrades
 
@@ -767,7 +767,7 @@ Upgrades
 		desc:Despite what everyone else says, this is a much better space than Ingle Auditorium.<//><b>Effect:</b><.>Quacklemore drops twice as many zingers
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/WebbAuditorium.png
 		cost:12 zingers
-		req:8 zinger:earned
+		req:12 zinger:earned
 		icon class:shrinkIcon
 		tag:zingerUpgrades
 
@@ -776,7 +776,7 @@ Upgrades
 		desc:Take a workshop. You'll need the experience in the coming days.<//><b>Effect:</b><.>unlocks management production boosts
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/FocusTheater.png
 		cost:18 zingers
-		req:12 zinger:earned
+		req:18 zinger:earned
 		icon class:shrinkIcon
 		tag:zingerUpgrades
 
@@ -785,16 +785,16 @@ Upgrades
 		desc:It is easier than ever to share your jokes with friends.<//><b>Effect:</b><.>Quacklemore joke drops are boosted
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/Discord.png
 		cost:26 zingers
-		req:18 zinger:earned
+		req:26 zinger:earned
 		icon class:shrinkIcon
 		tag:zingerUpgrades
 		
 	*brokenGlass
-		name:Breaks Your Fucking Glass
+		name:Breaks Your Fucking Cup
 		desc:Alessandro will ship you another one.<//><b>Effect:</b><.>unlocks drinking glass production boosts
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/Discord.png
 		cost:36 zingers
-		req:26 zinger:earned
+		req:36 zinger:earned
 		icon class:shrinkIcon
 		tag:zingerUpgrades
 
@@ -804,7 +804,7 @@ Upgrades
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/Discord.png
 		passive:multiply frequency of quacklemore by 0.80
 		cost:48 zingers
-		req:36 zinger:earned
+		req:48 zinger:earned
 		icon class:shrinkIcon
 		tag:zingerUpgrades
 Achievements
