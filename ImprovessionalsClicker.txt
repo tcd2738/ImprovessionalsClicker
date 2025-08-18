@@ -791,7 +791,7 @@ Upgrades
 		
 	*brokenGlass
 		name:Breaks Your Fucking Cup
-		desc:Alessandro will ship you another one.<//><b>Effect:</b><.>unlocks drinking glass production boosts<.>buying all drinking glass upgrades doubles Toast drop rate
+		desc:Alessandro will ship you another one.<//><b>Effect:</b><.>unlocks drinking glass production boosts<.>buying all drinking glass upgrades doubles Quacklemore's Toast drop rate
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/Discord.png
 		cost:36 zingers
 		req:36 zinger:earned
