@@ -255,6 +255,15 @@ Buildings
 		on tick:yield 120 jokes
 		req:153600 jokes:earned
 		cost increase:122%
+
+	*extra|extras
+		name:Johnny|Johnnys
+		desc:Loves doggos, puppers, and woofers.<//><b>Effect:</b><.>Produces 120 jokes per second.
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Johnny.png
+		cost:10930 jokes
+		on tick:yield 120 jokes
+		req:153600 jokes:earned
+		cost increase:122%
 		
 Upgrades
 	*TEMPLATE
