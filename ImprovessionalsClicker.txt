@@ -110,15 +110,29 @@ Buttons
 		on click:
 			$totalJokes=1
 			$percentOfJps=(0.01*jokes:ps)
-
+	
 			if (have weed)
-				$totalJokes=($totalJokes*10000)
+				$totalJokes=($totalJokes*1000)
 			else if (have onionSubscription)
 				$totalJokes=($totalJokes*100)			
 			else if (have twitterDotCom)
 				$totalJokes=($totalJokes*10)	
 			else if (have ucbManual)
 				$totalJokes=($totalJokes*2)
+			end
+
+			if (have obsession)
+				$totalJokes=($totalJokes+($percentOfJps*6))
+			else if (have prop)
+				$totalJokes=($totalJokes+($percentOfJps*5))
+			else if (have animal)
+				$totalJokes=($totalJokes+($percentOfJps*4))
+			else if (have posture)
+				$totalJokes=($totalJokes+($percentOfJps*3))
+			else if (have attitude)
+				$totalJokes=($totalJokes+($percentOfJps*2))
+			else if (have voice)
+				$totalJokes=($totalJokes+$percentOfJps)
 			end
 
 			yield $totalJokes jokes
