@@ -139,7 +139,6 @@ Buttons
 			end
 
 			yield $totalJokes jokes
-			end
 		end
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/ImprovessionalsLogo.png
 		no text
