@@ -757,13 +757,31 @@ Upgrades
 
 	*discordServer
 		name:Discord Server with Nitro
-		desc:It is easier than ever to share your jokes with friends<//><b>Effect:</b><.>Quacklemore joke drops are boosted
+		desc:It is easier than ever to share your jokes with friends.<//><b>Effect:</b><.>Quacklemore joke drops are boosted
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/Discord.png
-		cost:25 zingers
+		cost:26 zingers
 		req:18 zinger:earned
 		icon class:shrinkIcon
 		tag:zingerUpgrades
 		
+	*brokenGlass
+		name:Breaks Your Fucking Glass
+		desc:Alessandro will ship you another one.<//><b>Effect:</b><.>unlocks drinking glass production boosts
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/Discord.png
+		cost:36 zingers
+		req:26 zinger:earned
+		icon class:shrinkIcon
+		tag:zingerUpgrades
+
+	*youtubeChannel
+		name:Youtube Channel
+		desc:This is where I'd put my show recording, if I had one!<//><b>Effect:</b><.>Quacklemore appears 20% more often
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/Discord.png
+		passive:multiply frequency of quacklemore by 0.80
+		cost:48 zingers
+		req:36 zinger:earned
+		icon class:shrinkIcon
+		tag:zingerUpgrades
 Achievements
 	*TEMPLATE
 		on click:anim glow
