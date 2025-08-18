@@ -580,7 +580,7 @@ Upgrades
 		name:Improvessionals Babies
 		desc:They are so cute when they do improv.<//><b>Effect:</b><.>Ethan production +10%<.>Isaac production +10%
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/ImpBabies.png
-		cost:10000 jokes
+		cost:100000 jokes
 		passive:multiply yield of ethans by 1.1
 		passive:multiply yield of isaacs by 1.1
 		req:(ethans>=20 and isaacs>=10)
@@ -591,7 +591,7 @@ Upgrades
 		name:Log Flume Buddies
 		desc:Be careful boys, don't get too wet!<//><b>Effect:</b><.>Isaac production +10%<.>Leo production +10%
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/LogFlumeBuddies.png
-		cost:15000 jokes
+		cost:150000 jokes
 		passive:multiply yield of isaacs by 1.1
 		passive:multiply yield of leos by 1.1
 		req:(isaacs>=20 and leos>=10)
@@ -602,7 +602,7 @@ Upgrades
 		name:Movie Club
 		desc:*garbled "Top Gun" theme plays in the background* Hey, this is great!<//><b>Effect:</b><.>Tommy production +10%<.>Alessandro production +10%<.>Abby production +10%
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/MovieClub.png
-		cost:50000 jokes
+		cost:500000 jokes
 		passive:multiply yield of tommys by 1.1
 		passive:multiply yield of alessandros by 1.1
 		passive:multiply yield of abbys by 1.1
@@ -614,7 +614,7 @@ Upgrades
 		name:Class of 2021
 		desc:The Abby's, hosted by John Nolan.<//><b>Effect:</b><.>Abby production +21%<.>Johnny multiplier +21%
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/ClassOf2022.png
-		cost:220000 jokes
+		cost:2100000 jokes
 		passive:multiply yield of abbys by 1.21
 		passive:multiply yield of johnnys by 1.21
 		req:(abbys>=21 and johnnys>=21)
@@ -625,7 +625,7 @@ Upgrades
 		name:Class of 2022
 		desc:You did not come to the show, so we had to gak them.<//><b>Effect:</b><.>Leo production +22%<.>Tommy production +22%<.>Alessandro production +22%
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/ClassOf2022.png
-		cost:220000 jokes
+		cost:2200000 jokes
 		passive:multiply yield of leos by 1.22
 		passive:multiply yield of tommys by 1.22
 		passive:multiply yield of alessandros by 1.22
@@ -637,7 +637,7 @@ Upgrades
 		name:DC Trip
 		desc:Wouldn't it be crazy if Joe Biden died while we were here?<//><b>Effect:</b><.>Isaac production +5% <.>Leo production +5%<.>Tommy production +5%<.>Alessandro production +5%<.>Abby production +5%
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/DcTrip.png
-		cost:300000 jokes
+		cost:3000000 jokes
 		passive:multiply yield of isaacs by 1.05		
 		passive:multiply yield of tommys by 1.05
 		passive:multiply yield of leos by 1.05
@@ -651,7 +651,7 @@ Upgrades
 		name:Oops, All Presidents
 		desc:<//><b>Effect:</b><.>Ethan production +5%<.>Isaac production +5%<.>Tommy production +5%<.>Abby production +5%
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/DcTrip.png
-		cost:470000 jokes
+		cost:4700000 jokes
 		passive:multiply yield of ethans by 1.05	
 		passive:multiply yield of isaacs by 1.05	
 		passive:multiply yield of tommys by 1.05
@@ -664,7 +664,7 @@ Upgrades
 		name:The Inner Circle
 		desc:<//><b>Effect:</b><.>Ethan production +10%<.>Isaac production +10%<.>Tommy production +10%
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/DcTrip.png
-		cost:500000 jokes
+		cost:5000000 jokes
 		passive:multiply yield of ethans by 1.10	
 		passive:multiply yield of isaacs by 1.10	
 		passive:multiply yield of tommys by 1.10
@@ -791,7 +791,7 @@ Upgrades
 		
 	*brokenGlass
 		name:Breaks Your Fucking Cup
-		desc:Alessandro will ship you another one.<//><b>Effect:</b><.>unlocks drinking glass production boosts
+		desc:Alessandro will ship you another one.<//><b>Effect:</b><.>unlocks drinking glass production boosts<.>buying all drinking glass upgrades doubles Toast drop rate
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/Discord.png
 		cost:36 zingers
 		req:36 zinger:earned
