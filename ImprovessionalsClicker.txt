@@ -647,6 +647,18 @@ Upgrades
 		icon class:shrinkIcon
 		tag:combinerUpgrades
 
+	*innerCircle
+		name:The Inner Circle
+		desc:<//><b>Effect:</b><.>Ethan production +10%<.>Isaac production +10%<.>Tommy production +10%
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/DcTrip.png
+		cost:500000 jokes
+		passive:multiply yield of ethans by 1.10	
+		passive:multiply yield of isaacs by 1.10	
+		passive:multiply yield of tommys by 1.10
+		req:(ethans>= 50 and isaacs>=50 and tommys>=50)
+		icon class:shrinkIcon
+		tag:combinerUpgrades
+
 	//focus upgrades
 	*austin
 		name:Austin
