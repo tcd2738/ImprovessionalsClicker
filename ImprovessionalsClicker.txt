@@ -597,6 +597,17 @@ Upgrades
 		icon class:shrinkIcon
 		tag:combinerUpgrades
 
+	*classOf2021
+		name:Class of 2021
+		desc:The Abby's, hosted by John Nolan.<//><b>Effect:</b><.>Abby production +21%<.>Johnny multiplier +21%
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/ClassOf2022.png
+		cost:220000 jokes
+		passive:multiply yield of abbys by 1.21
+		passive:multiply yield of johnnys by 1.21
+		req:(abbys>=21 and johnnys>=21)
+		icon class:shrinkIcon
+		tag:combinerUpgrades
+
 	*classOf2022
 		name:Class of 2022
 		desc:You did not come to the show, so we had to gak them.<//><b>Effect:</b><.>Leo production +22%<.>Tommy production +22%<.>Alessandro production +22%
