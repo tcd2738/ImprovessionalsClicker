@@ -208,7 +208,7 @@ Buildings
 
 	*leo|leos
 		name:Leo|Leos
-		desc:Not named Steve, contrary to what his jacket says.<//><b>Effect:</b><.>Produces 3 jokes per second.
+		desc:Not named Corey, contrary to what his jacket says.<//><b>Effect:</b><.>Produces 3 jokes per second.
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Leo.png
 		cost:135 jokes
 		on tick:yield 3 joke
@@ -614,10 +614,25 @@ Upgrades
 		desc:Wouldn't it be crazy if Joe Biden died while we were here?<//><b>Effect:</b><.>Isaac production +5% <.>Leo production +5%<.>Tommy production +5%<.>Alessandro production +5%<.>Abby production +5%
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/DcTrip.png
 		cost:300000 jokes
-		passive:multiply yield of tommys by 1.1
-		passive:multiply yield of alessandros by 1.1
-		passive:multiply yield of abbys by 1.1
+		passive:multiply yield of isaacs by 1.05		
+		passive:multiply yield of tommys by 1.05
+		passive:multiply yield of leos by 1.05
+		passive:multiply yield of alessandros by 1.05
+		passive:multiply yield of abbys by 1.05
 		req:(isaacs>=20 and leos>=20 and tommys>=20 and alessandros>=20 and abbys>=20)
+		icon class:shrinkIcon
+		tag:combinerUpgrades
+
+	*allPresidents
+		name:Oops, All Presidents
+		desc:<//><b>Effect:</b><.>Ethan production +5%<.>Isaac production +5%<.>Tommy production +5%<.>Abby production +5%
+		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Combiners/DcTrip.png
+		cost:470000 jokes
+		passive:multiply yield of ethans by 1.05	
+		passive:multiply yield of isaacs by 1.05	
+		passive:multiply yield of tommys by 1.05
+		passive:multiply yield of abbys by 1.05
+		req:(ethans>= 47 and isaacs>=47 and tommys>=47 and abbys>=47)
 		icon class:shrinkIcon
 		tag:combinerUpgrades
 
@@ -695,7 +710,7 @@ Upgrades
 
 	*vapapo
 		name:VAPAPO
-		desc:Isn't the point of an acronym that is stands for something?<//><b>Effect:</b><.>unlocks VAPAPO click boosts
+		desc:Isn't the point of an acronym that it stands for something?<//><b>Effect:</b><.>unlocks VAPAPO click boosts
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/VAPAPO.png
 		cost:5 zingers
 		req:3 zinger:earned
