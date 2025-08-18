@@ -102,9 +102,9 @@ Buttons
 		on click:anim icon wobble
 		on click:
 			if (have customCahDeck)
-				if (chance(2%)) yield 1 zinger
-			else if (have quoteJar)
 				if (chance(1%)) yield 1 zinger
+			else if (have quoteJar)
+				if (chance(1%) and chance(50%)) yield 1 zinger
 			end
 		end
 		on click:
@@ -714,7 +714,7 @@ Upgrades
 	
 	*quoteJar
 		name:Quote Jar
-		desc:Your friends love it when you read through the quote jar.<//><b>Effect:</b><.>1% chance of gaining a zinger per joke
+		desc:Your friends love it when you read through the quote jar.<//><b>Effect:</b><.>.5% chance of gaining a zinger per joke
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/QuoteJar.png
 		cost:1 zinger
 		req:1 zinger:earned
@@ -742,7 +742,7 @@ Upgrades
 
 	*customCahDeck
 		name:Custom Cards Against Humanity Deck
-		desc:A bunch of jokes and prompts that were funny five years ago.<//><b>Effect:</b><.>2% chance of gaining a zinger per joke
+		desc:A bunch of jokes and prompts that were funny five years ago.<//><b>Effect:</b><.>.5% chance of gaining a zinger per joke
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/CustomDeck.png
 		cost:8 zinger
 		req:5 zingers:earned
