@@ -110,16 +110,6 @@ Buttons
 		on click:
 			$totalJokes=1
 			$percentOfJps=(0.01*jokes:ps)
-	
-			if (have weed)
-				$totalJokes=($totalJokes*10000)
-			else if (have onionSubscription)
-				$totalJokes=($totalJokes*100)			
-			else if (have twitterDotCom)
-				$totalJokes=($totalJokes*10)	
-			else if (have ucbManual)
-				$totalJokes=($totalJokes*2)
-			end
 
 			if (have obsession)
 				$totalJokes=($totalJokes+($percentOfJps*6))
@@ -134,6 +124,11 @@ Buttons
 			else if (have voice)
 				$totalJokes=($totalJokes+$percentOfJps)
 			end
+
+			if (have weed) $totalJokes=($totalJokes+1)
+			if (have onionSubscription) $totalJokes=($totalJokes+5)			
+			if (have twitterDotCom) $totalJokes=($totalJokes+20)	
+			if (have ucbManual) $totalJokes=($totalJokes+420)
 
 			yield $totalJokes jokes
 		end
@@ -269,7 +264,7 @@ Upgrades
 
 	*ucbManual
 		name:UCB Manual
-		desc:It's all about game babey!<//><b>Effect:</b><.>jokes per click *2
+		desc:It's all about game babey!<//><b>Effect:</b><.>jokes per click +1
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Click/UCB.png
 		cost:100 jokes
 		req:100 jokes:earned
@@ -278,7 +273,7 @@ Upgrades
 
 	*twitterDotCom
 		name:twitter.com
-		desc:The least offensive jokes come from here.<//><b>Effect:</b><.>jokes per click *5
+		desc:The least offensive jokes come from here.<//><b>Effect:</b><.>jokes per click +5
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Click/Twitter.png
 		cost:1000 jokes
 		req:500 jokes:earned
@@ -287,7 +282,7 @@ Upgrades
 
 	*onionSubscription
 		name:A Print Subscription to The Onion
-		desc:Global Tetrahedron thanks you.<//><b>Effect:</b><.>jokes per click *10
+		desc:Global Tetrahedron thanks you.<//><b>Effect:</b><.>jokes per click +20
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Click/Onion.png
 		cost:10000 jokes
 		req:2500 jokes:earned
@@ -296,7 +291,7 @@ Upgrades
 
 	*weed
 		name:Weed
-		desc:Supposedly makes you funnier.<//><b>Effect:</b><.>jokes per click *100
+		desc:Supposedly makes you funnier.<//><b>Effect:</b><.>jokes per click +420
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Click/Weed.png
 		cost:420000 jokes
 		req:42000 jokes
