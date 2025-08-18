@@ -112,7 +112,7 @@ Buttons
 			$percentOfJps=(0.01*jokes:ps)
 	
 			if (have weed)
-				$totalJokes=($totalJokes*1000)
+				$totalJokes=($totalJokes*10000)
 			else if (have onionSubscription)
 				$totalJokes=($totalJokes*100)			
 			else if (have twitterDotCom)
