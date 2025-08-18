@@ -129,10 +129,10 @@ Buttons
 				$totalJokes=($totalJokes+420)
 			end
 			if (have onionSubscription) 
-				$totalJokes=($totalJokes+9)
+				$totalJokes=($totalJokes+20)
 			end			
 			if (have twitterDotCom) 
-				$totalJokes=($totalJokes+3)	
+				$totalJokes=($totalJokes+5)	
 			end
 			if (have ucbManual) 
 				$totalJokes=($totalJokes+1)
@@ -781,8 +781,8 @@ Upgrades
 		tag:zingerUpgrades
 
 	*discordServer
-		name:Discord Server with Nitro
-		desc:It is easier than ever to share your jokes with friends.<//><b>Effect:</b><.>Quacklemore joke drops are boosted
+		name:A Discord Service
+		desc:Official or unofficial, it's your problem now.<//><b>Effect:</b><.>Quacklemore joke drops are boosted
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/Discord.png
 		cost:26 zingers
 		req:26 zinger:earned
