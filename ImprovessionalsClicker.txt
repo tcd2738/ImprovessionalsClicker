@@ -125,11 +125,6 @@ Buttons
 				$totalJokes=($totalJokes+$percentOfJps)
 			end
 
-			if (have weed) $totalJokes=($totalJokes+1)
-			if (have onionSubscription) $totalJokes=($totalJokes+5)			
-			if (have twitterDotCom) $totalJokes=($totalJokes+20)	
-			if (have ucbManual) $totalJokes=($totalJokes+420)
-
 			yield $totalJokes jokes
 		end
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/ImprovessionalsLogo.png
@@ -248,15 +243,6 @@ Buildings
 		cost increase:120%
 	
 	*johnny|johnnys
-		name:Johnny|Johnnys
-		desc:Loves doggos, puppers, and woofers.<//><b>Effect:</b><.>Produces 120 jokes per second.
-		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Johnny.png
-		cost:10930 jokes
-		on tick:yield 120 jokes
-		req:153600 jokes:earned
-		cost increase:122%
-
-	*extra|extras
 		name:Johnny|Johnnys
 		desc:Loves doggos, puppers, and woofers.<//><b>Effect:</b><.>Produces 120 jokes per second.
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Buildings/Johnny.png
