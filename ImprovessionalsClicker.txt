@@ -27,7 +27,7 @@ Layout
 			header:Buildings
 			tooltip origin:left
 		*upgrades
-			contains:clickUpgrades, zingerUpgrades, ethanUpgrades, isaacUpgrades, leoUpgrades, tommyUpgrades, alessandroUpgrades, abbyUpgrades, johnnyUpgrades, combinerUpgrades, vapapoUpgrades, focusUpgrades
+			contains:ethanUpgrades, isaacUpgrades, leoUpgrades, tommyUpgrades, alessandroUpgrades, abbyUpgrades, johnnyUpgrades, clickUpgrades, zingerUpgrades, combinerUpgrades, vapapoUpgrades, focusUpgrades
 			header:Upgrades
 			costs:hide
 			names:hide
@@ -781,7 +781,7 @@ Upgrades
 		tag:zingerUpgrades
 
 	*discordServer
-		name:A Discord Service
+		name:A Discord Server
 		desc:Official or unofficial, it's your problem now.<//><b>Effect:</b><.>Quacklemore joke drops are boosted
 		icon:https://raw.githubusercontent.com/tcd2738/ImprovessionalsClicker/main/Upgrades/Zingers/Discord.png
 		cost:26 zingers
